@@ -1,51 +1,52 @@
 $(function() {
+  // $('.collapse').collapse('hide');
+  $(".list-group-item.active")
+    .parent()
+    .parent(".collapse")
+    .collapse("show");
 
-    // $('.collapse').collapse('hide');
-    $('.list-group-item.active').parent().parent('.collapse').collapse('show');
+  var pages = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace("title"),
+    // datumTokenizer: Bloodhound.tokenizers.whitespace,
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
 
+    prefetch: baseurl + "/search.json"
+  });
 
-    var pages = new Bloodhound({
-        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('title'),
-        // datumTokenizer: Bloodhound.tokenizers.whitespace,
-        queryTokenizer: Bloodhound.tokenizers.whitespace,
+  $("#search-box").typeahead(
+    {
+      minLength: 0,
+      highlight: true
+    },
+    {
+      name: "pages",
+      display: "title",
+      source: pages
+    }
+  );
 
-        prefetch: baseurl + '/search.json'
-    });
+  $("#search-box").bind("typeahead:select", function(ev, suggestion) {
+    window.location.href = suggestion.url;
+  });
 
-    $('#search-box').typeahead({
-        minLength: 0,
-        highlight: true
-    }, {
-        name: 'pages',
-        display: 'title',
-        source: pages
-    });
+  // Markdown plain out to bootstrap style
+  $("#markdown-content-container table").addClass("table");
+  $("#markdown-content-container img").addClass("img-responsive");
 
-    $('#search-box').bind('typeahead:select', function(ev, suggestion) {
-        window.location.href = suggestion.url;
-    });
+  //Begin no idea what I am doing
+//   var allCodeBlocksElements = $("code");
 
+//   allCodeBlocksElements.each(function(i) {
+//     var currentId = "codeblock" + (i + 1);
+//     $(this).attr("id", currentId);
 
-    // Markdown plain out to bootstrap style
-    $('#markdown-content-container table').addClass('table');
-    $('#markdown-content-container img').addClass('img-responsive');
+//     var clipButton =
+//       '<button class="btn" data-clipboard-target="#' +
+//       currentId +
+//       '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
+//     $(this).after(clipButton);
+//   });
 
-    //Begin no idea what I am doing
-    var allCodeBlocksElements = $( "code" );
-
-    allCodeBlocksElements.each(function(i) {
-        // add different id for each code block
-    
-        // target	
-        var currentId = "codeblock" + (i + 1);
-        $(this).attr('id', currentId);
-            
-        //trigger
-        var clipButton = '<button class="btn" data-clipboard-target="#' + currentId + '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
-            $(this).after(clipButton);
-      });
-     
-      new Clipboard('.btn');
-    //End no idea what I am doing
-
+//   new Clipboard(".btn");
+  //End no idea what I am doing
 });
