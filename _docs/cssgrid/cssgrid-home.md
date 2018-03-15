@@ -1,5 +1,5 @@
 ---
-title: CSS Grid Widget
+title: Build
 permalink: /docs/cssgrid-home/
 ---
 

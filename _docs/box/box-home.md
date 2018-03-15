@@ -1,6 +1,6 @@
 ---
-title: Box Widget
+title: Build
 permalink: /docs/box-home/
 ---
 
-Box!
+Box Build!

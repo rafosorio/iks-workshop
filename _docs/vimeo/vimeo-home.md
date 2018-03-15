@@ -1,6 +1,6 @@
 ---
-title: Vimeo Widget
+title: Build
 permalink: /docs/vimeo-home/
 ---
 
-Vimeo!
+Vimeo Build!

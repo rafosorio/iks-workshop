@@ -1,5 +1,5 @@
 ---
-title: Forum Widget
+title: Build
 permalink: /docs/forum-home/
 ---
 

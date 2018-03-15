@@ -1,6 +1,6 @@
 ---
-title: Build
-permalink: /docs/helloworld-home/
+title: Deploy
+permalink: /docs/helloworld-deploy/
 ---
 
 Hello World!
