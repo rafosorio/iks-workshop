@@ -34,7 +34,7 @@ body {
 .navbar-brand{
   img{
     margin: -$navbar-padding-vertical 0;
-    height: $navbar-height;
+    height: $navbar-height - 10;
     padding: 10px 0;
   }
 }
