@@ -1,6 +1,6 @@
 ---
 title: My Page
-permalink: /docs/cssgrid/welcome/
+permalink: /docs/welcome/
 ---
 
 Hello World!
