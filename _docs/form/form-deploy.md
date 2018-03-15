@@ -1,6 +1,6 @@
 ---
 title: Form Widget
-permalink: /docs/form-home/
+permalink: /docs/form-deploy/
 ---
 
-Form!
+Form Deploy!

@@ -13,23 +13,29 @@
 - title: Hello World
   docs:
   - helloworld-home
+  - helloworld-deploy
 
 - title: CSS Grid
   docs:
   - cssgrid-home
+  - cssgrid-deploy
 
 - title: Vimeo
   docs:
   - vimeo-home
+  - vimeo-deploy
 
 - title: Box
   docs:
   - box-home
+  - box-deploy
 
 - title: Forum Copy
   docs:
   - forum-home
+  - forum-deploy
 
 - title: Form
   docs:
   - form-home
+  - form-deploy
