@@ -49,11 +49,13 @@ But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
+{: #code-example-1}
 
 ```python
 s = "Python syntax highlighting"
 print s
 ```
+{: #code-example-2}
 
 ```
 No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
