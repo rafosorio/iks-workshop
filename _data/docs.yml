@@ -10,6 +10,26 @@
   - font-awesome
   - bootstrap
 
-- title: CSSGrid
+- title: Hello World
   docs:
-  - welcome
+  - helloworld-home
+
+- title: CSS Grid
+  docs:
+  - cssgrid-home
+
+- title: Vimeo
+  docs:
+  - vimeo-home
+
+- title: Box
+  docs:
+  - box-home
+
+- title: Forum Copy
+  docs:
+  - forum-home
+
+- title: Form
+  docs:
+  - form-home
