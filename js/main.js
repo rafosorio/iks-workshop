@@ -34,19 +34,19 @@ $(function() {
   $("#markdown-content-container img").addClass("img-responsive");
 
   //Begin no idea what I am doing
-//   var allCodeBlocksElements = $("code");
+  var allCodeBlocksElements = $("code");
 
-//   allCodeBlocksElements.each(function(i) {
-//     var currentId = "codeblock" + (i + 1);
-//     $(this).attr("id", currentId);
+  allCodeBlocksElements.each(function(i) {
+    var currentId = "codeblock" + (i + 1);
+    $(this).attr("id", currentId);
 
-//     var clipButton =
-//       '<button class="btn" data-clipboard-target="#' +
-//       currentId +
-//       '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
-//     $(this).after(clipButton);
-//   });
+    var clipButton =
+      '<button class="btn" data-clipboard-target="#' +
+      currentId +
+      '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
+    $(this).after(clipButton);
+  });
 
-//   new Clipboard(".btn");
+  new Clipboard(".btn");
   //End no idea what I am doing
 });
