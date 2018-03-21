@@ -14,11 +14,11 @@ The lab instructions are very specifc on the tools we will using:
   - Development Server Environment: Node.js, NPM, Express and ngrok 
   - Code version control: It is also a good practice is to use Git for version control. There are a number of options you can choose from and for this lab we will be using Github (Don't worry about having an account on Github unless you want to save the code that you create).
 
-However they are not a requirement for building widgets for ICEC. You can use a text editor to write your code. You can use just a plain text editor like a notepad. Popular and free solution are Notepad++, Atom, TextMate and Visual Studio Code.
+However these are not requirements for building widgets for ICEC. You can use a text editor to write your code. You can use just a plain text editor like a notepad. Popular and free solution are Notepad++, Atom, TextMate and Visual Studio Code.
 
 Note 1: For the Think 2018 conference, we are providing a virtual machine that contains these tools installed at a specific version. Please do not try to upgrade the versions (even if prompted by the various tools or ask the lab facilitators before attempting any updates). 
 
-Note 2: If you are trying to perform this lab outside of the Think 2018 conference, we will be providing step by step instructions shortly after the conclusion of the conference on installing these same tools on your own system if you wish to follow along using these same tools. You are also free to follow through this lab using development tools that repeat these with the tools you are most comfortable with.  
+Note 2: If you are trying to perform this lab outside of the Think 2018 conference, we will be providing step by step instructions shortly after the conclusion of the conference on installing these same tools on your own system. You are also free to follow this lab using development tools you are most comfortable with.  
 
 ### Prerequisites
 We’ll assume some familiarity with HTML, CSS and JavaScript, but you should be able to follow along even if you haven’t used them before. However, you may not know why we did certain things the way we did.
@@ -35,7 +35,7 @@ VS Code has an [integrated terminal]() which you can use to run shell commands. 
 
 **View** > **Integrated Terminal** will open the integrated terminal and you can run commands throughout the lab, i.e. `npm install`, `npm run build`, etc... from there:
 
-For this walkthrough, we will open up two terminal sessions, using the + on the right hand side:
+For this lab, we will open up two terminal sessions, using the + on the right hand side:
  - one for the server where our widgets will be served from during our development
  - one to generate and build package our custom widget code after every iteration.
 
