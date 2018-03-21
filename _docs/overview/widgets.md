@@ -3,7 +3,7 @@ title: Widgets
 permalink: /docs/widgets/
 ---
 
-Engagement Center widgets can be embedded in placeholders on every Connections Engagement Center page. Below is a list of widgets that ship with ICEC.  This lab is focus on building custom widgets, however it is importnt to understand what is available.  It is also possible to make a copy of an existing widget to either override it or simply have a slightly modified version.
+Engagement Center widgets can be embedded in placeholders on every Connections Engagement Center page. Below is a list of widgets that ship with ICEC.  This lab is focus on building custom widgets; however, it is importnt to understand what is available.  It is also possible to make a copy of an existing widget to either override it or simply have a slightly modified version.
 
 <ul class="nav nav-tabs">
   <li class="dropdown">

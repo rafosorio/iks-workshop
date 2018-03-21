@@ -5,9 +5,9 @@ permalink: /docs/helloworld-home/
 
 <a name="top"/>
 
-The `custom.js` includes a widget called helloWorld.  The complete code for the widget is right inside of the `custom.js`.  This is not the approach that we will take to create and deploy widgets moving forward, however it helps in understanding what is required to `register` a custom widgets in ICEC.  
+The `custom.js` includes a widget called helloWorld.  The complete code for the widget is right inside of the `custom.js`.  This is not the approach that we will take to create and deploy widgets moving forward; however, it helps in understanding what is required to `register` a custom widget in ICEC.  
 
-As seen in the previous topic we added a set of arrays and script code in our init section to facilitate the registration process and we will use that process moving forward. 
+As seen in the previous topic, we added a set of arrays and script code in our init section to facilitate the registration process and we will use that process moving forward. 
 
 ###### 1. Register the helloWorld widget
 
@@ -20,27 +20,27 @@ The name of the widget is `helloWorld` as seen in the screen shot for the line t
 
 ###### 2. Review the helloWorld widget
 
-Expand the helloWorld section if it is not already expanded.  The helloWorld widget consists of three(3) functions:
-- `myCustomWidget`: This is the code that is responsible for rendering the widget.  It can contain HTML and JavaScript using the regular markup and script tags. 
-- `myCustomEditor`: This is called when editing the widget. We will look at that in other widgets later
-- `save`: This is called when saving the widget
+Expand the helloWorld section if it is not already expanded.  The helloWorld widget consists of three (3) functions:
+- `myCustomWidget`: This is the code that is responsible for rendering the widget.  It can contain HTML and JavaScript using regular markup and script tags. 
+- `myCustomEditor`: This is called when editing the widget. We will look at that in other widgets later.
+- `save`: This is called when saving the widget.
 
 The last line in the helloWorld widget section is a call to the `registerCustomWidget` function:
 ```
 XCC.W.registerCustomWidget("LAB8498 Hello World", "flag", myCustomWidget, myCustomEditor, save);
 ```
 
-- The first parameter must be a string. It will represent the name of the widget in the list of widgets in the admin panel if you click on the button Create widget.
+- The first parameter must be a string. It will represent the name of the widget in the list of widgets in the admin panel if you click on the `Create Widget` button.
 
-- The second parameter must be also a string. It will represent the icon of the custom widget in the admin panel. The icon set is from www.fontawesome.io . You only need to add the name of the icon. For example, if you want to have the comment icon, you have to write only comment instead of fa-comment.
+- The second parameter must be also a string. It will represent the icon of the custom widget in the admin panel. The icon set is from www.fontawesome.io . You only need to add the name of the icon. For example, if you want to have the comment icon, you have to write only "comment" instead of "fa-comment".
 
 - The third parameter should be your callback function, which will be called if the widget is loaded. This function will get two parameters. The first parameter is the widget container as a jQuery-object. The second parameter is the widget configuration as an object.
 
-- The fourth parameter should be your callback function for the edit area. Here you can use a lot of Libraries, like Bootstrap, jQuery UI, etc. Also there are some Connections Engagement Center functions, which will help you to reach the same layout as the normal widget editors. A Save - button is automatically rendered into the editor. Your callback function will get also two parameters: The first is the edit area as a jquery-object, the second parameter is the widget configuration-object. Within the widget configuration you can fill your input fields in the edit area, like title or height.
+- The fourth parameter should be your callback function for the edit area. Here you can use a lot of libraries, like Bootstrap, jQuery UI, etc. Also there are some Connections Engagement Center functions, which will help you to reach the same layout as the normal widget editors. A Save - button is automatically rendered into the editor. Your callback function will get also two parameters: The first is the edit area as a jquery-object, the second parameter is the widget configuration-object. Within the widget configuration you can fill your input fields in the edit area, like title or height.
 
-- The fifth parameter should be your callback function for the Save button. Your callback function will get two parameters. The first is the edit area as a jquery-object, the second parameter is the widget configuration-object. You have to read out the data of your custom editarea and save them into the widget configuration.
+- The fifth parameter should be your callback function for the Save button. Your callback function will get two parameters. The first is the edit area as a jquery-object, the second parameter is the widget configuration-object. You have to read out the data of your custom edit area and save them into the widget configuration.
 
-- The sixth parameter is optional. Here you can specify in which Connections Engagement Center-Mode the widget will be shown. By default the widget will be available in all Connections Engagement Center-Modes.
+- The sixth parameter is optional. Here you can specify in which Connections Engagement Center Mode the widget will be shown. By default the widget will be available in all Connections Engagement Center Modes.
 
 ###### 3. Update the custom.js on the ICEC server
 
@@ -50,6 +50,9 @@ XCC.W.registerCustomWidget("LAB8498 Hello World", "flag", myCustomWidget, myCust
 - Navigate to the location of the `custom.js` that you saved in an earlier step, select it and click on Open. You should receive a result similar to the screen below confirming the file was uploaded.
 
 ![upload customjs](../images/upload-customjs.png)
+
+- Click the Close button.
+
 <br/>
 ###### 4. Add the helloWorld widget to the Hello World page
 

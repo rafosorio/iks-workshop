@@ -9,7 +9,7 @@ We are going to build a very simple html widget that will contain a few div tags
 
 ###### 1. Create a new widget
 
-We will now create a new widget and name it `cssgrid`, the name is important to follow along in the exercises.  In a Visual Studio Code terminal window make sure that you are in the `icec-widgets-starter` directory.
+We will now create a new widget and name it `cssgrid`; the name is important to follow along in the exercises.  In a Visual Studio Code terminal window make sure that you are in the `icec-widgets-starter` directory.
 
 - issue the following command:
 
