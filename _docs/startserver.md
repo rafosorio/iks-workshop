@@ -15,7 +15,7 @@ cd icec-widgets-starter
 npm install
 ```
 
-This process may run for a 2 or 3 minutes, once the npm modules required are installed, enter the following command to compile the Express server
+This process may run for less than 2 minutes, once the npm modules required are installed, enter the following command to compile the Express server
 
 ```
 npm run build
