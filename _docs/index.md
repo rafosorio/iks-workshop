@@ -1,50 +1,42 @@
 ---
-title: Welcome
+title: Lab Setup
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-## Getting started
+### What we will be doing
+In this lab we will start by exploring the HelloWorld custom widget to understand how widgets are registered in ICEC.  We will then build four(4) custom widgets to access various external content we want to surface in IBM Connections Engagement Center. 
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published on the webpage instantly.
+The lab instructions are very specifc on the tools we will using:
 
-1. Just download the source from [github.com/aksakalli/jekyll-doc-theme](https://github.com/aksakalli/jekyll-doc-theme/master) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
-3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
+  - IDE: Visual Studio Code
+  - Browser: Chrome
+  - Development Server Environment: Node.js, NPM, Express and ngrok 
+  - Code version control: It is also a good practice is to use Git for version control. There are a number of options you can choose from and for this lab we will be using Github (Don't worry about having an account on Github unless you want to save the code that you create).
 
-## Writing content
+However they are not a requirement for building widgets for ICEC. You can use a text editor to write your code. You can use just a plain text editor like a notepad. Popular and free solution are Notepad++, Atom, TextMate and Visual Studio Code.
 
-### Docs
+Note 1: For the Think 2018 conference, we are providing a virtual machine that contains these tools installed at a specific version. Please do not try to upgrade the versions (even if prompted by the various tools or ask the lab facilitators before attempting any updates). 
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+Note 2: If you are trying to perform this lab outside of the Think 2018 conference, we will be providing step by step instructions shortly after the conclusion of the conference on installing these same tools on your own system if you wish to follow along using these same tools. You are also free to follow through this lab using development tools that repeat these with the tools you are most comfortable with.  
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+### Prerequisites
+We’ll assume some familiarity with HTML, CSS and JavaScript, but you should be able to follow along even if you haven’t used them before. However, you may not know why we did certain things the way we did.
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+### Launch Visual Studio Code (or your favorite IDE)
+For this walkthrough we are assuming using Visual Studio Code, a free to download / use IDE available for Mac, Windows and Linux. Click on the icon in the launch bar to open it.  
+![Visual Studio Code](../images/vsc.png)
 
-Hello World!
-```
+### Integrated Terminal
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+VS Code has an [integrated terminal]() which you can use to run shell commands. You can run Node.js directly from there and avoid switching out of VS Code while running command line tools.
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+![integrated terminal](../images/vsterm.png)
 
-### Blog posts
+**View** > **Integrated Terminal** will open the integrated terminal and you can run commands throughout the lab, i.e. `npm install`, `npm run build`, etc... from there:
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
+For this walkthrough, we will open up two terminal sessions, using the + on the right hand side:
+ - one for the server where our widgets will be served from during our development
+ - one to generate and build package our custom widget code after every iteration.
 
-### Pages
 
-The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
-
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.

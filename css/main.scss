@@ -5,7 +5,9 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
-
+html body {
+  font-size: 15px;
+}
 
 @import
   {% if site.bootwatch %}
@@ -36,6 +38,7 @@ body {
     margin: -$navbar-padding-vertical 0;
     height: $navbar-height - 10;
     padding: 10px 0;
+    padding-right: 50px;
   }
 }
 

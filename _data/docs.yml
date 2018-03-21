@@ -1,19 +1,22 @@
+- title: Overview
+  docs:
+  - icec
+  - widgets
+  - libraries
+  - font-awesome
+
 - title: Getting Started
   docs:
   - home
-  - themes
-  - customization
-
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - clonerepo
+  - startserver
+  - login
+  - navigation
+  - customjs
 
 - title: Hello World
   docs:
   - helloworld-home
-  - helloworld-deploy
 
 - title: CSS Grid
   docs:
@@ -30,12 +33,11 @@
   - box-home
   - box-deploy
 
-- title: Forum Copy
+- title: Business Card
   docs:
-  - forum-home
-  - forum-deploy
+  - businessCard-home
+  - businessCard-deploy
 
-- title: Form
+- title: More Info
   docs:
-  - form-home
-  - form-deploy
+  - more-home

@@ -34,6 +34,7 @@ $(function() {
   $("#markdown-content-container img").addClass("img-responsive");
 
   //Begin no idea what I am doing
+  /*
   var allCodeBlocksElements = $("code");
 
   allCodeBlocksElements.each(function(i) {
@@ -48,5 +49,6 @@ $(function() {
   });
 
   new Clipboard(".btn");
+  */
   //End no idea what I am doing
 });
