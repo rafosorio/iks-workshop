@@ -6,7 +6,7 @@ permalink: /docs/login/
 ---
 <p>
 <span class="label label-info">Note</span>
-If this is your very first time using ICEC, we recommend you to review the <a href="https://www.ibm.com/developerworks/collaboration/library/icec-getting-started/index.html" target="_blank">Getting started with IBM Connections Engagement Center for Developers</a> topic.  
+If this is your very first time using ICEC, we recommend you take a few minutes to review the <a href="https://www.ibm.com/developerworks/collaboration/library/icec-getting-started/index.html" target="_blank">Getting started with IBM Connections Engagement Center for Developers</a> topic.  
 </p>
 
 <p>
@@ -19,7 +19,7 @@ During the lab we will provide you with a shortcut for creating the pages and th
 ---
 
 
-### Login using Chrome
+### Log in using Chrome
 ICEC is installed as an add-on to IBM Connections that is available on-premises and in the cloud.  You access it with one of the following URI: 
  - /xcc/main (on-prem) 
  - /xcc/cloud (cloud)
