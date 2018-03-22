@@ -3,12 +3,11 @@ title: Widgets
 permalink: /docs/widgets/
 ---
 
-<hr>
-Prepared by Scott Good, NA ICS SME team  
-Organized by content type
-<hr>
-
 Engagement Center widgets can be embedded in placeholders on every Connections Engagement Center page. Below is a list of widgets that ship with ICEC. This lab is focus on building custom widgets; however, it is important to understand what is available. It is also possible to make a copy of an existing widget to either override it or simply have a slightly modified version.
+
+<hr>
+Widgets on this page are organized by content type and prepared by Scott Good, NA ICS SME team  
+<hr>
 
 <ul class="nav nav-tabs">
   <li class="dropdown">
@@ -95,3 +94,4 @@ Engagement Center widgets can be embedded in placeholders on every Connections E
       <img src="../images/peoplebirthday2.png">    
   </div>
 </div>
+
