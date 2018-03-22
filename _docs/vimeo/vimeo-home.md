@@ -1,5 +1,5 @@
 ---
-title: Build
+title: The Vimeo Example
 permalink: /docs/vimeo-home/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Build
+title: The Business Card Example
 permalink: /docs/businessCard-home/
 ---
 

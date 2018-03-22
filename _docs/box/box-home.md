@@ -1,5 +1,5 @@
 ---
-title: Build
+title: The Box Example
 permalink: /docs/box-home/
 ---
 

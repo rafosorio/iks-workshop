@@ -1,5 +1,5 @@
 ---
-title: Build
+title: The CSS Grid Example
 permalink: /docs/cssgrid-home/
 ---
 
