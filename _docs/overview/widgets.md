@@ -3,7 +3,12 @@ title: Widgets
 permalink: /docs/widgets/
 ---
 
-Engagement Center widgets can be embedded in placeholders on every Connections Engagement Center page. Below is a list of widgets that ship with ICEC.  This lab is focus on building custom widgets; however, it is important to understand what is available.  It is also possible to make a copy of an existing widget to either override it or simply have a slightly modified version.
+<hr>
+Prepared by Scott Good, NA ICS SME team  
+Organized by content type
+<hr>
+
+Engagement Center widgets can be embedded in placeholders on every Connections Engagement Center page. Below is a list of widgets that ship with ICEC. This lab is focus on building custom widgets; however, it is important to understand what is available. It is also possible to make a copy of an existing widget to either override it or simply have a slightly modified version.
 
 <ul class="nav nav-tabs">
   <li class="dropdown">
@@ -63,11 +68,18 @@ Engagement Center widgets can be embedded in placeholders on every Connections E
 
   <div class="tab-pane fade" id="blogs1">
       <p>NOTE: The News Channel and the News Slider widgets are the same.</p>
-<p>Displays the first part of the content of blog entries along with the first image from each, regardless wherever that image is located in the blog post. Wider sizes show hints of the next blog entry, as seen below.</p>
-<p>RECOMMENDATION: Use square images, not rectangular (at least for the first image).</p>
+      <p>Displays the first part of the content of blog entries along with the first image from each, regardless wherever that image is located in the blog post. Wider sizes show hints of the next blog entry, as seen below.</p>
+      <p>RECOMMENDATION: Use square images, not rectangular (at least for the first image).</p>
       <img src="../images/newsslider1.png">
       <br/>
       <img src="../images/newsslider2.png">
+  </div>
+
+  <div class="tab-pane fade" id="blogs2">
+      <p>Displays blog entries from specified Communities. Can pull from multiple sources. Displays only headline and creation date. Does not show any of the body, nor photos.</p>
+      <img src="../images/blogs//newslist1.png">
+      <br/>
+      <img src="../images/blogs/newslist2.png">
   </div>
 
    <div class="tab-pane fade" id="profiles1">
