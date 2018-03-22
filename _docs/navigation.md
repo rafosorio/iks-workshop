@@ -71,7 +71,7 @@ The page will reload with the new `custom.js` loaded.  You may now close the Dev
 
 ###### 5. Add the **Lab Navigation** widget to the page  
 
-By default when you started from the /xcc/cloud uri, you were placed on the `cloud` page.  We 'created' five (5) pages during the import process above to host each of the five (5) widgets we will be developing during this lab. We will now add a pre-built navigation widget to this `cloud` page you are on to faciliate quick switching to these other pages. 
+By default when you started from the /xcc/cloud uri, you were placed on the `cloud` page.  We 'created' five (5) pages during the import process above to host each of the five (5) widgets we will be developing during this lab. We will now add a pre-built navigation widget to this `cloud` page you are on to facilitate quick switching to these other pages. 
 
 Click on **Customize** > **Widgets** > **Create Widget** 
 
@@ -105,7 +105,7 @@ Now if you click on each of the navigation links, you are taken to the appropria
 
 ![import pages](../images/navigation2.png)
 
-NOTE: If the pages do not have the Lab Navigation widget on them, then there is a bug in our lab.  For each page, you can choose **Customize** > **Page Settings** > **Show Advanced** and choose `cloud` in the Inherit From dropdown.
+NOTE: If the pages do not have the Lab Navigation widget on them, then there is a bug in our lab.  For each page, you can choose to **Customize** > **Page Settings** > **Show Advanced** and choose `cloud` in the Inherit From drop-down.
 
 [Back to Top](#top)  
 

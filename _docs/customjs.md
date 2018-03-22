@@ -11,7 +11,7 @@ Return to Visual Studio Code and in the left navigation expand **src** > **widge
 `custom.js` is an entry point that is used to add any custom widget that you develop.  You are free to tailor it to what you feel most comfortable with.  We modified it for this lab to simplify our development/testing/production deployment of widgets. We will now explore the features in our tailored `custom.js` file.
 
 <br/>
-This picture shows all the major sections of the custom.js collapsed. We will refer to the line numbers on the left hand side as we describe each of the sections.  
+This picture shows all the major sections of the custom.js collapsed. We will refer to the line numbers on the left-hand side as we describe each of the sections.  
 <br/>
 ![edit customjs](../images/customjsoverview.png)
 
@@ -21,12 +21,12 @@ This picture shows all the major sections of the custom.js collapsed. We will re
     * The `customPath` is used to specify where custom widget(s) are deployed in 'Production', i.e. hosted on the ICEC server.  The default path is `/xcc/rest/public/custom/` and should not be changed.
 
 - In lines 20 to 34 we have four (4) array variables that we declare and initialize as follows:
-    * XCC.X.customWidgetsDEV: Array of name(s) of custom widget(s) that will be served from our development server (devServer variable above).
-    * XCC.X.replaceWidgetsDEV: Array of name(s) of custom widget(s) that will be served from our development server (devServer variable above) and replace out-of-the-box widgets.
-    * XCC.X.customWidgetsPROD: Array of name(s) of custom widget(s) that will be served from the ICEC server (customPath variable above).
-    * XCC.X.replaceWidgetsPROD: Array of name(s) of custom widget(s) that will be served from the ICEC server (customPath variable above) and replace out-of-the-box widgets.
+    * XCC.X.customWidgetsDEV: Array of name(s) of the custom widget(s) that will be served from our development server (devServer variable above).
+    * XCC.X.replaceWidgetsDEV: Array of name(s) of the custom widget(s) that will be served from our development server (devServer variable above) and replace out-of-the-box widgets.
+    * XCC.X.customWidgetsPROD: Array of name(s) of the custom widget(s) that will be served from the ICEC server (customPath variable above).
+    * XCC.X.replaceWidgetsPROD: Array of name(s) of the custom widget(s) that will be served from the ICEC server (customPath variable above) and replace out-of-the-box widgets.
 
-- In lines 37 to 71 we loop through the above arrays and call the necessary ICEC functions to either add a widget or replace the out-of-the-box widget with the widgets that are added to the custom.js
+- In lines 37 to 71, we loop through the above arrays and call the necessary ICEC functions to either add a widget or replace the out-of-the-box widget with the widgets that are added to the custom.js
 
 - Lines 73 and 82 start sections for two(2) custom widgets:
     * navigation: This is the widget we added to our pages in an earlier step

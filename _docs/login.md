@@ -24,9 +24,9 @@ ICEC is installed as an add-on to IBM Connections that is available on-premises 
  - /xcc/main (on-prem) 
  - /xcc/cloud (cloud)
 
-For this lab we will be Chrome as the browser and a Connections Cloud environment at the following URL: <a href="https://apps.na.collabserv.com/xcc/cloud" target="_blank">https://apps.na.collabserv.com/xcc/cloud</a>
+For this lab, we will be Chrome as the browser and a Connections Cloud environment at the following URL: <a href="https://apps.na.collabserv.com/xcc/cloud" target="_blank">https://apps.na.collabserv.com/xcc/cloud</a>
 
-Launch the web site above using the Chrome browser and login using the credentials that were assigned to you by the lab facilitators.
+Launch the web site using the Chrome browser and log in using the credentials that were assigned to you by the lab facilitators.
 
 When you first log in, you see an empty page similar to this:
 
