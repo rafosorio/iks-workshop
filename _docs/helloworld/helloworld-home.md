@@ -56,7 +56,7 @@ XCC.W.registerCustomWidget("LAB8498 Hello World", "flag", myCustomWidget, myCust
 <br/>
 ###### 4. Add the helloWorld widget to the Hello World page
 
-- Click on the nagivation link for Hello World to be taken to that page. Validate by looking for the page title and the `?page=helloWorld` in the URL displayed by the browser
+- Click on the navigation link for Hello World to be taken to that page. Validate by looking for the page title and the `?page=helloWorld` in the URL displayed by the browser
 - Click on **Customize** > **Widgets** > **Create Widget** 
 
 ![import pages](../images/addnavigation.png)

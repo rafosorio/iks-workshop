@@ -69,7 +69,7 @@ $.get('https://8bb892c4.ngrok.io/regions?shortName=' + sname, function (data) {
 <br/>
 ##### 4. Build the widget
 
-We need to preseve some information on the original widget we copied, i.e. the originalName that is used by ICEC to register that widget. In your Chrome browser developer console issue type the following command `XCC.requirejs.s.contexts._.config.paths` and hit on enter. Expand the resulting object:
+We need to preserve some information on the original widget we copied, i.e. the originalName that is used by ICEC to register that widget. In your Chrome browser developer console issue type the following command `XCC.requirejs.s.contexts._.config.paths` and hit on enter. Expand the resulting object:
 
 ![edit bcard](../images/custompath1.png)
 

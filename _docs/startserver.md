@@ -5,7 +5,7 @@ permalink: /docs/startserver/
 
 ### Initialize and start the Express Server
 
-We will use an Express server to host our widgets during development and testing of our widgets.  It will greatly simplify the process of iterating through various versions of the code without having to constantly redeploy the widget(s) to the Connections environment.  (Again, Express is not necessary in order to develop or run ICEC widgets; using these tools just makes our work easier.) The express server will serve the widgets under the ```/build/public``` directoy.   With the ngrok tunnel, all the widgets will be served over https. 
+We will use an Express server to host our widgets during development and testing of our widgets.  It will greatly simplify the process of iterating through various versions of the code without having to constantly redeploy the widget(s) to the Connections environment.  (Again, Express is not necessary in order to develop or run ICEC widgets; using these tools just makes our work easier.) The express server will serve the widgets under the ```/build/public``` directory.   With the ngrok tunnel, all the widgets will be served over https. 
 
 Open a new terminal by selecting **View** > **Integrated Terminal**
 

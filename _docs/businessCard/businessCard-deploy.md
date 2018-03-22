@@ -30,7 +30,7 @@ The BusinessCard is used in the People Selector widget we previously added to th
 <br/>
 ###### 3. Deploying to Production
 
-Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Everytime you run a build process the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
+Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Every time you run a build process the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
 
 To switch from your development server to the ICEC server for serving the files, update the `custom.js` file and switch the location of the widget registration from the `XCC.X.replaceWidgetsDEV` array to the `XCC.X.replaceWidgetsPROD`.  
 

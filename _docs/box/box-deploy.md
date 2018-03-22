@@ -39,7 +39,7 @@ Return to the ICEC page using your browser.
 
 ###### 2. Add the box widget to the Box page
 
-- Click on the nagivation link for Box to be taken to that page. Validate by looking for the page title and the `?page=box` in the URL displayed by the browser
+- Click on the navigation link for Box to be taken to that page. Validate by looking for the page title and the `?page=box` in the URL displayed by the browser
 - Click on **Customize** > **Widgets** > **Create Widget** 
 
 <p>
@@ -55,7 +55,7 @@ The widget is added to the page and you can interact with the widget to play vid
 
 ###### 3. Add Edit capability to the widget
 
-The token to acces the Box folder is hard coded in the widget, but we would like to make it editable. As we saw with the Hello World example, you can add an edit and save dialog to the widgets.  Let's try to do the same here for the token. 
+The token to access the Box folder is hard coded in the widget, but we would like to make it editable. As we saw with the Hello World example, you can add an edit and save dialog to the widgets.  Let's try to do the same here for the token. 
 
 - Edit the `custom.js`, and add the following code to the box widget section, right below the `function content (...)` and redeploy it as we have done previously.
 
@@ -138,7 +138,7 @@ render(<App token={token} />, container);
 <br/>
 ###### 5. Deploying to Production
 
-Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Everytime you run a build process the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
+Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Every time you run a build process the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
 
 To switch from your development server to the ICEC server for serving the files, update the `custom.js` file and switch the location of the widget registration from the `XCC.X.customWidgetsDEV` array to the `XCC.X.customWidgetsPROD`.  
 

@@ -106,7 +106,7 @@ Return to Visual Studio Code and and let's add some styling to our plain HTML
 ```
 - Take a look at the index.js and validate that the `index.css` is imported.  This will pull the CSS into the js file that is bundled by webpack.
 
-- Save the modifed files
+- Save the modified files
 
 In order to make the updates to the widget available to ICEC we are going to run a `build` task that packages all the required files/changes and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
@@ -120,14 +120,14 @@ npm run build
 
 ![cssgrid styled](../images/cssgridstyled.png)
 
-- Click on Customize on the page and expiriment drag and droping (moving) the widget around the ICEC page and see how it is responsive.  
+- Click on Customize on the page and experiment drag and dropping (moving) the widget around the ICEC page and see how it is responsive.  
 
 You can now make updates to the widget as you iterate through your code, run a build process and test.  When you are ready to deploy to production, the following steps can be performed
 
 <br/>
 ###### 4. Deploying to Production
 
-Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Everytime you run a build process the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
+Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Every time you run a build process the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
 
 To switch from your development server to the ICEC server for serving the files, update the `custom.js` file and switch the location of the widget registration from the `XCC.X.customWidgetsDEV` array to the `XCC.X.customWidgetsPROD`.  
 
