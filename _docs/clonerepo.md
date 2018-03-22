@@ -15,4 +15,4 @@ git clone https://github.com/icstechsales/icec-widgets-starter.git
 ### Open the repo directory in VS Code
 Click on **Open folder** in the **Welcome** page 
 
-Navigate to the icec-widgets-starter directory and click on **Open**
+Navigate to the icec-widgets-starter directory and click **Select Folder** (on a Mac, click **Open**).
