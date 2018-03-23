@@ -7,6 +7,8 @@ permalink: /docs/box-home/
 
 We are going to build a widget to access files and folders from Box.  This exercise is going to help us get familiar with how to access external content leveraging API and components provided by Box and using React.
 
+![create widget](../images/box.png)
+
 ##### 1. Create a new widget
 
 We will now create a new widget and name it `box`, the name is important to follow along in the exercises.  In a Visual Studio Code terminal window make sure that you are in the `icec-widgets-starter` directory. Issue the following command:

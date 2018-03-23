@@ -1,9 +1,9 @@
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 {% for section in site.data.docs %}
   <div class="panel panel-default">
-    <div class="panel-heading">
+    <div class="panel-heading" id="ph-{{forloop.index}}">
       <h4 class="panel-title">
-        <a id="collapse-{{forloop.index}}" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-{{forloop.index}}">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-{{forloop.index}}">
           {{ section.title }}
         </a>
         <!-- <a role="button" data-toggle="collapse" data-parent="#accordion" href="/icec-widgets-lab/docs/icec/" aria-expanded="false" aria-controls="collapse-{{forloop.index}}">

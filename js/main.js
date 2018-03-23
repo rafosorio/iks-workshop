@@ -6,42 +6,42 @@ $(function() {
     .collapse("show");
 
   //DP: Trying something
-  $("#collapse-1").click(function() {
+  $("#ph-1").click(function() {
     window.location.href = "/icec-widgets-lab/docs/icec/";
     return;
   });
 
-  $("#collapse-2").click(function() {
+  $("#ph-2").click(function() {
     window.location.href = "/icec-widgets-lab/docs/home/";
     return;
   });
 
-  $("#collapse-3").click(function() {
+  $("#ph-3").click(function() {
     window.location.href = "/icec-widgets-lab/docs/helloworld-home/";
     return;
   });
 
-  $("#collapse-4").click(function() {
+  $("#ph-4").click(function() {
     window.location.href = "/icec-widgets-lab/docs/cssgrid-home/";
     return;
   });
 
-  $("#collapse-5").click(function() {
+  $("#ph-5").click(function() {
     window.location.href = "/icec-widgets-lab/docs/vimeo-home/";
     return;
   });
 
-  $("#collapse-6").click(function() {
+  $("#ph-6").click(function() {
     window.location.href = "/icec-widgets-lab/docs/box-home/";
     return;
   });
 
-  $("#collapse-7").click(function() {
+  $("#ph-7").click(function() {
     window.location.href = "/icec-widgets-lab/docs/businessCard-home/";
     return;
   });
 
-  $("#collapse-8").click(function() {
+  $("#ph-8").click(function() {
     window.location.href = "/icec-widgets-lab/docs/more-home/";
     return;
   });
