@@ -47,8 +47,8 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
       Community-related widgets<span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
-      <li><a href="#community1" data-toggle="tab">Community Members</a></li>
-      <li><a href="#community1" data-toggle="tab">People Birthday (on-prem only)</a></li>
+      <li><a href="#catchall" data-toggle="tab">Community Members</a></li>
+      <li><a href="#catchall" data-toggle="tab">People Birthday (on-prem only)</a></li>
     </ul>
   </li>
 
@@ -57,8 +57,8 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
       Miscellaneous widgets<span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
-      <li><a href="#misc1" data-toggle="tab">Community Members</a></li>
-      <li><a href="#misc2" data-toggle="tab">People Birthday (on-prem only)</a></li>
+      <li><a href="#catchall" data-toggle="tab">Community Members</a></li>
+      <li><a href="#catchall" data-toggle="tab">People Birthday (on-prem only)</a></li>
     </ul>
   </li>
 
@@ -101,7 +101,7 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
 
   <div class="tab-pane fade" id="catchall">
   <br/>
-  <p>Coming soon</p>
+  <p>Details Coming soon</p>
   </div>
 
 </div>
