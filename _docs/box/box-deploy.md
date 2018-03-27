@@ -49,7 +49,7 @@ If the widget does not show up in the list, bring up your developer console and 
 
 - Select the `LAB8498 Box` widget from the list and in the ID field enter a unique name **LabBox** and click on **Create**.
 
-The widget is added to the page and you can interact with the widget to play videos and cycle through the list.  
+The widget is added to the page and you can interact with the widget to view files.
 
 <br/>
 
@@ -57,7 +57,7 @@ The widget is added to the page and you can interact with the widget to play vid
 
 The token to acces the Box folder is hard coded in the widget, but we would like to make it editable. As we saw with the Hello World example, you can add an edit and save dialog to the widgets.  Let's try to do the same here for the token. 
 
-- Edit the `custom.js`, and add the following code to the box widget section, right below the `function content (...)` and redeploy it as we have done previously.
+- Edit the `custom.js`, and add the following code to the box widget section, right below the `function content (...)` and redeploy it as we have done previously. NOTE: You will be replacing the `registerCustomWidget` code as well.
 
 ```javascript
 		

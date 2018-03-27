@@ -58,7 +58,7 @@ In the left navigation for Visual Studio code, expand the `src/widgets/vimeo` fo
         `
 ```
 
-- The above script snippet is from an open source librarie that you can get more details from this [website](https://wesleyluyten.com/projects/vimeo-wrap)
+- The above script snippet is from an open source library; get more details [here](https://wesleyluyten.com/projects/vimeo-wrap)
 
 - Save the file.
 
@@ -72,8 +72,8 @@ In order to make the widget available to ICEC we are going to run a `build` task
 npm run build
 ```
 
-- From the Visual Studio Code Explorer on the left panel, navigate to the `src/widgets/vimeo/dist` and review the files there.  
+- From the Visual Studio Code Explorer on the left panel, navigate to the `src/widgets/vimeo/dist` and review the file there.  
 
 - Repeat the above step for the `build/public` folder
 
-- This widget is pure JavaScript with the html code inside of it, so only the js files are produced.
+- NOTE: This widget is pure JavaScript with the html code inside of it, so only the js files are produced.

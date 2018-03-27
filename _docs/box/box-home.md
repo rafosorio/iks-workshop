@@ -9,7 +9,7 @@ We are going to build a widget to access files and folders from Box.  This exerc
 
 ##### 1. Create a new widget
 
-We will now create a new widget and name it `box`, the name is important to follow along in the exercises.  In a Visual Studio Code terminal window make sure that you are in the `icec-widgets-starter` directory. Issue the following command:
+We will now create a new widget and name it `box`, the name is important to follow along in the exercises.  In a Visual Studio Code terminal window, make sure that you are in the `icec-widgets-starter` directory. Issue the following command:
 
 ```
 node scripts/createWidget.js box react
@@ -29,10 +29,10 @@ npm install
 <br/>
 ##### 3. Adding sample code to the widget
 
-In the left navigation for Visual Studio code, expand the `src/widgets/box/src` folder, if you do not see the box folder, click on the refresh icon on the top right to update your folder list.
+In the left navigation for Visual Studio code, expand the `src/widgets/box` folder, if you do not see the box folder, click on the refresh icon on the top right to update your folder list.
 
-- Click on the `index.js` to modify it.  Does this look familiar?  
-- This widget as it is can be surfaced in ICEC after running a `build` and registering it inside the custom.js.  But we already made an hello world widget, so are going to make it something more interesting. We are going to access a Box folder download and upload files via that widget. 
+- Click on the `index.js` to modify it.
+- This widget as it is can be surfaced in ICEC after running a `build` and registering it inside the custom.js.  But we already did that with the hello world widget, so are going to make it something more interesting. We are going to access a Box folder and download and upload files via that widget. 
 
 - Copy and paste the following javascript to replace the entire content of the `index.js`
 
@@ -49,7 +49,7 @@ render(<App token={token} />, container);
 
 We have changed the file by adding an import to a React component called `App` and the `render` method is now passed a `token` property.  
 
-The `App` component is a simple React component that is leveraging some Box UI components that are responsible for rendring the Box UI.  We are going to use them to display the Box folder inside our widget.  
+The `App` component is a simple React component that is leveraging some Box UI components that are responsible for rendering the Box UI.  We are going to use them to display the Box folder inside our widget.  
 
 ![create widget](../images/app.png)
 

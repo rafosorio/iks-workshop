@@ -31,9 +31,9 @@ Return to Visual Studio Code and in the left navigation expand **src** > **widge
 	};
 ```
 
-Note 1 : Our widget will leverage open source libraries and we need to ensure that the libraries are loaded before we try to do anything.  ICEC provides the `requirejs` library already loaded, we just need to make use of it by calling XCC.require with the appropriate callback. 
+Note 1 : Our widget will leverage open source libraries and we need to ensure that the libraries are loaded before we try to do anything.  ICEC provides the `requirejs` library already loaded; we just need to make use of it by calling XCC.require with the appropriate callback. 
 
-Note 2: The vimeowrap library has mutiple plugins available, in order to use the plugins the main library `vimeowrap.js` mut be loaded first on the page. We can nest XCC.require statements to ensure the main library is loaded first and then the plugin.  
+Note 2: The vimeowrap library has mutiple plugins available. In order to use the plugins, the main library `vimeowrap.js` mut be loaded first on the page. We can nest XCC.require statements to ensure the main library is loaded first and then the plugin.  
 
 Note 3: Finally we require our own JS file, which when registered can be found either on our development server or the ICEC server, dependent on the variable we use under the init function of the custom.js as seen previously.  
 
@@ -118,8 +118,8 @@ To switch from your development server to the ICEC server for serving the files,
 	XCC.X.customWidgetsPROD = [ 
 		"navigation",
 		"helloWorld",
-        "cssgrid",
-        "vimeo"
+      "cssgrid",
+      "vimeo"
 	];  
 ```
 
