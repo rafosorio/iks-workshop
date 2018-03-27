@@ -1,11 +1,13 @@
 ---
-title: Build
+title: The Box Example
 permalink: /docs/box-home/
 ---
 
 <a name="top"/>
 
 We are going to build a widget to access files and folders from Box.  This exercise is going to help us get familiar with how to access external content leveraging API and components provided by Box and using React.
+
+![create widget](../images/box.png)
 
 ##### 1. Create a new widget
 

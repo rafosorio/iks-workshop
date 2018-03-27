@@ -1,15 +1,15 @@
 ---
-title: Build
+title: The CSS Grid Example
 permalink: /docs/cssgrid-home/
 ---
 
 <a name="top"/>
 
-We are going to build a very simple html widget that will contain a few div tags and include a custom css file.  This exercise is going to help us get familiar with how to use the tools provided to create, package, deploy a widget. 
+We are going to build a very simple HTML widget that will contain a few div tags and include a custom CSS file.  This exercise is going to help us get familiar with how to use the tools provided to create, package, deploy a widget. 
 
 ###### 1. Create a new widget
 
-We will now create a new widget and name it `cssgrid`; the name is important to follow along in the exercises.  In a Visual Studio Code terminal window make sure that you are in the `icec-widgets-starter` directory.
+We will now create a new widget and name it `cssgrid`; the name is important to follow along in the exercises.  In a Visual Studio Code, terminal window make sure that you are in the `icec-widgets-starter` directory.
 
 - issue the following command:
 
@@ -62,7 +62,7 @@ In the left navigation for Visual Studio code, expand the `src/widgets/cssgrid` 
 
 ###### 4. Build the widget
 
-In order to make the widget available to ICEC we are going to run a `build` task that packages all the required files and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
+In order to make the widget available to ICEC, we are going to run a `build` task that packages all the required files and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
 - Issue the following command from a terminal window while in `src/widgets/cssgrid` directory.
 

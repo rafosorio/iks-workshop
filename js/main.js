@@ -5,6 +5,47 @@ $(function() {
     .parent(".collapse")
     .collapse("show");
 
+  //DP: Trying something
+  $("#ph-1").click(function() {
+    window.location.href = "/icec-widgets-lab/docs/icec/";
+    return;
+  });
+
+  $("#ph-2").click(function() {
+    window.location.href = "/icec-widgets-lab/docs/home/";
+    return;
+  });
+
+  $("#ph-3").click(function() {
+    window.location.href = "/icec-widgets-lab/docs/helloworld-home/";
+    return;
+  });
+
+  $("#ph-4").click(function() {
+    window.location.href = "/icec-widgets-lab/docs/cssgrid-home/";
+    return;
+  });
+
+  $("#ph-5").click(function() {
+    window.location.href = "/icec-widgets-lab/docs/vimeo-home/";
+    return;
+  });
+
+  $("#ph-6").click(function() {
+    window.location.href = "/icec-widgets-lab/docs/box-home/";
+    return;
+  });
+
+  $("#ph-7").click(function() {
+    window.location.href = "/icec-widgets-lab/docs/businessCard-home/";
+    return;
+  });
+
+  $("#ph-8").click(function() {
+    window.location.href = "/icec-widgets-lab/docs/more-home/";
+    return;
+  });
+
   var pages = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace("title"),
     // datumTokenizer: Bloodhound.tokenizers.whitespace,

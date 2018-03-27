@@ -11,7 +11,7 @@ As seen in the previous topic, we added a set of arrays and script code in our i
 
 ###### 1. Register the helloWorld widget
 
-The name of the widget is `helloWorld` as seen in the screen shot for the line that starts with `XCC.X.helloWorld = function() `.  We need to add that exact name to the appropriate variable.  This is a custom widget that is NOT replacing an existing ICEC widget.  We can add it to the `XCC.X.customWidgetsPROD` array as seen in the screen below:
+The name of the widget is `helloWorld` as seen in the screenshot for the line that starts with `XCC.X.helloWorld = function()`.  We need to add that exact name to the appropriate variable.  This is a custom widget that is NOT replacing an existing ICEC widget.  We can add it to the `XCC.X.customWidgetsPROD` array as seen in the screen below:
 <br/>
 ![customize page management](../images/registerHelloWorld.png)
 
@@ -56,7 +56,7 @@ XCC.W.registerCustomWidget("LAB8498 Hello World", "flag", myCustomWidget, myCust
 <br/>
 ###### 4. Add the helloWorld widget to the Hello World page
 
-- Click on the nagivation link for Hello World to be taken to that page. Validate by looking for the page title and the `?page=helloWorld` in the URL displayed by the browser
+- Click on the navigation link for Hello World to be taken to that page. Validate by looking for the page title and the `?page=helloWorld` in the URL displayed by the browser
 - Click on **Customize** > **Widgets** > **Create Widget** 
 
 ![import pages](../images/addnavigation.png)
@@ -125,9 +125,9 @@ function myCustomWidget(container$, widgetData) {
 - Refresh the page to see the results
 
 This is not a very useful widget, except that it demonstrates a few things:
-1. XCC.P is a set of function that allow you to get access to more information on the current user that is already known by ICEC without having to write additional code to pull the data.  You can explore for yourself from the Developer Console what functions are available.
+1. XCC.P is a set of function that allows you to get access to more information on the current user that is already known by ICEC without having to write additional code to pull the data.  You can explore for yourself from the Developer Console what functions are available.
 
-2. Bootstrap classes are included in the html for styling. 
+2. Bootstrap classes are included in the HTML for styling. 
 
 3. Writing all the logic for our widgets inside of the custom.js is probably not a good idea.  Let's look at other methods.
 
