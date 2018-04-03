@@ -108,7 +108,7 @@ Return to Visual Studio Code. Let's add some styling to our plain HTML.
 
 - Save the modified files.
 
-In order to make the updates to the widget available to ICEC, we are going to run a `build` task that packages all the required files/changes and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
+In order to make the updates to the widget available to ICEC, we are going to run a `build` task that packages all the required files/changes and deploys them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
 - Issue the following command from a terminal window while in `src/widgets/cssgrid` directory.
 

@@ -14,11 +14,7 @@ The lab instructions are very specific to the tools we will use:
 - Development Server Environment: Node.js, NPM, Express, and ngrok
 - Code version control: It is also a good practice is to use Git for version control. There are a number of options you can choose from and for this lab, we will be using Github (Don’t worry about having an account on Github unless you want to save the code that you create).
 
-However, these are not requirements for building widgets for ICEC! You can use a text editor to write your code. You can use just a plain text editor like a notepad. Popular and free solutions are Notepad++, Atom, TextMate and Visual Studio Code.
-
-Note 1: For the Think 2018 conference, we are providing a virtual machine which contains these tools installed at a specific version. Please do not try to upgrade the versions (even if prompted by the various tools) or ask the lab facilitators before attempting any updates.
-
-Note 2: If you are trying to perform this lab outside of the Think 2018 conference, we will be providing step-by-step instructions shortly after the conclusion of the conference on installing these same tools on your own system. You are also free to follow this lab using the development tools you are most comfortable with.
+However, these are not requirements for building widgets for ICEC! You can use a text editor to write your code. You can use just a plain text editor like a notepad. Popular and free solutions are Notepad++, Atom, TextMate and Visual Studio Code. You are free to follow this lab using the development tools you are most comfortable with.
 
 
 ### Prerequisites
@@ -38,6 +34,6 @@ VS Code has an **integrated terminal** which you can use to run shell commands. 
 
 For this lab, we will open up two terminal sessions, using the + on the right-hand side:
  - one for the server where our widgets will be served from during our development
- - one to generate and build package our custom widget code after every iteration.
+ - one to build and package our custom widget code after every iteration.
 
 

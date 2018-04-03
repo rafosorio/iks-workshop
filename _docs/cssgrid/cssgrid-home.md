@@ -62,7 +62,7 @@ In the left navigation for Visual Studio code, expand the `src/widgets/cssgrid` 
 
 ###### 4. Build the widget
 
-In order to make the widget available to ICEC, we are going to run a `build` task that packages all the required files and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
+In order to make the widget available to ICEC, we are going to run a `build` task that packages all the required files and deploys them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
 - Issue the following command from a terminal window while in the `src/widgets/cssgrid` directory.
 

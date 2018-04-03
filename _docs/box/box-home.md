@@ -60,7 +60,7 @@ The `App` component is a simple React component that is leveraging some Box UI c
 <br/>
 ##### 4. Build the widget
 
-In order to make the widget available to ICEC we are going to run a `build` task that packages all the required files and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
+In order to make the widget available to ICEC we are going to run a `build` task that packages all the required files and deploys them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
 - Issue the following command from a terminal window while in the `src/widgets/box` directory.
 

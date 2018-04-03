@@ -14,8 +14,6 @@ This step will import a number of files to your ICEC environment including a def
 <span class="label label-success">Safe for Lab</span>
 </p>
 
-For the lab environment that you are using at Think 2018 it is safe to proceed without making a backup of the `custom.js` file.  
-
 ---
 
 <a name="top"/>

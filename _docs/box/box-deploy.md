@@ -136,7 +136,7 @@ render(<App token={token} />, container);
 
 
 <br/>
-###### 5. Deploying to Production
+###### 4. Deploying to Production
 
 Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Every time you run a build process the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
 
