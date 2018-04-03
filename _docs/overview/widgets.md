@@ -3,7 +3,7 @@ title: Widgets
 permalink: /docs/widgets/
 ---
 
-Engagement Center widgets can be embedded in placeholders on every Connections Engagement Center page. Below is a list of widgets that ship with ICEC. This lab is focus on building custom widgets; however, it is important to understand what is available. It is also possible to make a copy of an existing widget to either override it or simply have a slightly modified version.
+Engagement Center widgets can be embedded in placeholders on every Connections Engagement Center page. Below is a list of widgets that ship with ICEC. This lab focuses on building custom widgets; however, it is important to understand what is available. It is also possible to make a copy of an existing widget to either override it or simply have a slightly modified version.
 
 <hr>
 Widgets on this page are organized by content type and prepared by Scott Good, NA ICS SME team  
@@ -12,7 +12,7 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
 <ul class="nav nav-tabs">
   <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-      Blog-related widgets <span class="caret"></span>
+      Blog widgets <span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
       <li><a href="#blogs1" data-toggle="tab">News Channel or News Slider</a></li>
@@ -27,7 +27,7 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
 
   <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-      People and Profiles-related widgets <span class="caret"></span>
+      People and Profiles widgets <span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
       <li><a href="#profiles1" data-toggle="tab">Community Members</a></li>
@@ -44,7 +44,7 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
 
   <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-      Community-related widgets<span class="caret"></span>
+      Community widgets<span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
       <li><a href="#catchall" data-toggle="tab">Community Members</a></li>
@@ -67,8 +67,8 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
 
   <div class="tab-pane fade" id="blogs1">
   <br/>
-      <p>NOTE: The News Channel and the News Slider widgets are the same.</p>
-      <p>Displays the first part of the content of blog entries along with the first image from each, regardless wherever that image is located in the blog post. Wider sizes show hints of the next blog entry, as seen below.</p>
+      <p>NOTE: The News Channel and News Slider widgets are the same.</p>
+      <p>Displays the first part of the content of blog entries along with the first image from each, regard of where that image is located in the blog post. Wider sizes show hints of the next blog entry, as seen below.</p>
       <p>RECOMMENDATION: Use square images, not rectangular (at least for the first image).</p>
       <img src="../images/newsslider1.png">
       <br/>
@@ -93,7 +93,7 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
 
   <div class="tab-pane fade" id="profiles2">
   <br/>
-    <p>NOTE: This only seems to work if you have entered the birthday properly in the user's Profile, which requires *-MM-DD format (note the leading asterisk).</p>
+    <p>NOTE: This only works if you have entered the birthday properly in the user's Profile, which requires *-MM-DD format (note the leading asterisk).</p>
       <img src="../images/peoplebirthday1.png">
       <br><p>If you directly edit the user Profile, it shows an example of the correct date formatting. However, if you use the Preferences widget (as shown below) or the Profile Completion widget, it will NOT show the correct format and will accept all kinds of formats that won't work.</p>
       <img src="../images/peoplebirthday2.png">    
