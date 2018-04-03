@@ -1,5 +1,5 @@
 ---
-title: Login to ICEC
+title: Log in to ICEC
 permalink: /docs/login/
 ---
 
@@ -20,11 +20,11 @@ During the lab we will provide you with a shortcut for creating the pages and th
 
 
 ### Log in using Chrome
-ICEC is installed as an add-on to IBM Connections that is available on-premises and in the cloud.  You access it with one of the following URI: 
+ICEC is installed as an add-on to IBM Connections that is available on-premises and in the cloud.  You access it with one of the following URIs: 
  - /xcc/main (on-prem) 
  - /xcc/cloud (cloud)
 
-For this lab, we will be Chrome as the browser and a Connections Cloud environment at the following URL: <a href="https://apps.na.collabserv.com/xcc/cloud" target="_blank">https://apps.na.collabserv.com/xcc/cloud</a>
+For this lab, we will be using Chrome as the browser and a Connections Cloud environment at the following URL: <a href="https://apps.na.collabserv.com/xcc/cloud" target="_blank">https://apps.na.collabserv.com/xcc/cloud</a>
 
 Launch the web site using the Chrome browser and log in using the credentials that were assigned to you by the lab facilitators.
 
