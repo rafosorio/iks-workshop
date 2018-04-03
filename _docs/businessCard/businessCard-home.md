@@ -17,8 +17,10 @@ node scripts/createWidget.js bcard custom
 
 We are going to make a copy of the Business Card widget and modify it using the following steps:
 
-1. Click on the nagivation link for Business Card to be taken to that page. Validate by looking for the page title and the `?page=bCard` in the URL displayed by the browser
-2. By default all widgets that are loaded on an ICEC page are minimized, we need to make a copy of the non-minimzed version. Add the `&xccdebug=true` parameter to the url to force a download of non-minimized versions of all widgets on the current page: `https://apps.na.collabserv.com/xcc/cloud?page=bCard&xccdebug=true` and hit on enter to refresh the page with the new parameter.
+1. Click on the nagivation link for Business Card to be taken to that page. Validate by looking for the page title and the `?page=bCard` in the URL displayed by the browser.
+2. By default, all widgets that are loaded on an ICEC page are minimized, so we need to make a copy of the non-minimized version. 
+   - Add the `&xccdebug=true` parameter to the URL to force a download of non-minimized versions of all widgets on the current page: `https://apps.na.collabserv.com/xcc/cloud?page=bCard&xccdebug=true`. 
+   - Press Enter to refresh the page with the new parameter.
 3. Click on **Customize** > **Widgets** > **Create Widget** 
 4. Select the `People Selector` widget from the list and in the ID field enter a unique name **PS** and click on **Create**.
 5. Open the Developer Tools in your browser and change to the `Resources` tab.
