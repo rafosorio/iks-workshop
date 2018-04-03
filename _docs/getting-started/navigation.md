@@ -8,7 +8,7 @@ permalink: /docs/navigation/
 <span class="label label-warning">Warning</span>
 </p>
 
-This step will import a number of files to your ICEC environment including a default `custom.js` which will replace your existing `custom.js`. If you need to keep your existing customizations (if any), you need to make a backup of your `custom.js` before importing theses files below. 
+This step will import a number of files to your ICEC environment including a default `custom.js` which will replace your existing `custom.js`. If you need to keep your existing customizations (if any), you need to make a backup of your `custom.js` before importing the files below. 
 
 <p>
 <span class="label label-success">Safe for Lab</span>
@@ -43,7 +43,7 @@ Click on **Show Advanced** > **Import pages**
 
 ###### 3. Import labpages.zip  
 
-The Github repository that you cloned earlier contains zip file called `labpages.zip` (do not unzip the file unless you need to modify it).  
+The Github repository that you cloned earlier contains a zip file called `labpages.zip`. (Do not unzip the file unless you need to modify it.)  
 
 ![import pages](../images/labfiles.png)
 
@@ -79,7 +79,7 @@ Click on **Customize** > **Widgets** > **Create Widget**
 
 Select the `LAB8498 Navigation` widget from the list and in the ID field enter a unique name **LabNavigation** and click on **Create**.
 
-A widget similar to the one below should now be added to the page
+A widget similar to the one below should now be added to the page.
 ![import pages](../images/navigation.png)
 
 <br/>
@@ -88,14 +88,13 @@ A widget similar to the one below should now be added to the page
 ###### 6. Configure all pages to the same navigation  
 
 We now need to add the same navigation widget to all the pages we created.  There are two methods available to us: 
-* a) add the same widget to each page individually or 
-* b) make the page we already added the widget on - the `cloud` page - a template and have all the other pages inherit from that template.  
+* Add the same widget to each page individually or 
+* Make the page we already added the widget on - the `cloud` page - a template and have all the other pages inherit from that template.  
 
-We will do option b in this lab. The pages we imported were pre-configured to inherit from the `cloud` page that we are currently on; however, the `cloud` page is not currently known to be a template. Let's change that now: 
+We will do the second option in this lab. The pages we imported were pre-configured to inherit from the `cloud` page that we are currently on; however, the `cloud` page is not currently known to be a template. Let's change that now: 
 
-Changing the page grid
 ICEC pages are based on grid layouts. To change the grid, you go to “Grid” in “Page Settings” and select the grid you want to use.
-- Click on > **Page Settings** > **Grid** and select **Grid 13** 
+- Click on > **Page Settings** > **Grid** and select **Grid 13**. 
 
 - Click on > **Page Settings** > **Show Advanced** and select the **Is Template** check box and click on **Save**. (The page should refresh.)
 
