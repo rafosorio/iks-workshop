@@ -13,13 +13,13 @@ Open a new terminal by selecting **View** > **Integrated Terminal**
 npm install
 ```
 
-This process may run for less than 2 minutes, once the npm modules required are installed, enter the following command to compile the Express server
+This process may run for less than 2 minutes. Once the npm modules required are installed, enter the following command to compile the Express server
 
 ```
 npm run build
 ```
 
-Once that is completed, run the following command to start the server. You may receive a prompt to allow ngrok to be accessible via your desktop firewall; approve it. (On a Mac, you may have to run the command using sudo: `sudo npm run start`). ngrok is a tunnel to your local server that will be hosting your widgets during development.
+Once that is completed, run the following command to start the server. You may receive a prompt to allow ngrok to be accessible via your desktop firewall; approve it. (On a Mac, you may have to run the command using sudo: `sudo npm run start`.) ngrok is a tunnel to your local server that will be hosting your widgets during development.
 ```
 npm run start
 ```
@@ -42,7 +42,7 @@ For now, we want to switch to a different terminal session for compiling our wid
 
 ### Stopping the server
 
-In the terminal that runs the server type ```q``` and hit on enter
+In the terminal that runs the server type ```q``` and press Enter.
 
 ![stop server](../images/stopserver.png)
 
