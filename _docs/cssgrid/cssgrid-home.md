@@ -5,7 +5,7 @@ permalink: /docs/cssgrid-home/
 
 <a name="top"/>
 
-We are going to build a very simple HTML widget that will contain a few div tags and include a custom CSS file.  This exercise is going to help us get familiar with how to use the tools provided to create, package, deploy a widget. 
+We are going to build a very simple HTML widget that will contain a few div tags and include a custom CSS file.  This exercise is going to help us get familiar with how to use the tools provided to create, package, and deploy a widget. 
 
 ###### 1. Create a new widget
 
@@ -23,7 +23,7 @@ node scripts/createWidget.js cssgrid html
 
 ###### 2. Initialize the widget
 
-The default widget comes with a set of JavaScript modules and build tools pre-configured.  We need to install them.  Switch to directory that was just created
+The default widget comes with a set of JavaScript modules and build tools pre-configured.  We need to install them.  Switch to the directory that was just created.
 
 - run `npm install`
 
@@ -64,16 +64,16 @@ In the left navigation for Visual Studio code, expand the `src/widgets/cssgrid` 
 
 In order to make the widget available to ICEC, we are going to run a `build` task that packages all the required files and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
-- Issue the following command from a terminal window while in `src/widgets/cssgrid` directory.
+- Issue the following command from a terminal window while in the `src/widgets/cssgrid` directory.
 
 ```
 npm run build
 ```
 
-- From the Visual Studio Code Explorer on the left panel, navigate to the `src/widgets/cssgrid/dist` and review the files there.  
+- From the Visual Studio Code Explorer on the left panel, navigate to the `src/widgets/cssgrid/dist` directory and review the files there.  
 
-- Repeat the above step for the `build/public` folder
+- Repeat the above step for the `build/public` folder.
 
-###### 5. Verify you can access the widget
+###### 5. Verify that you can access the widget
 
-- Open a browser window and try accessing the widget using the url `https://<yourdevserver>/cssgrid.html`
+- Open a browser window and try accessing the widget using the url `https://<yourdevserver>/cssgrid.html`.
