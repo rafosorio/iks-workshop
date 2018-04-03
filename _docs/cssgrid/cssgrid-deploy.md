@@ -7,11 +7,11 @@ permalink: /docs/cssgrid-deploy/
 
 ###### 1. Register the cssgrid widget
 
-Return to Visual Studio Code and in the left navigation expand **src** > **widgets** and click on `custom.js` to open it.  
+Return to Visual Studio Code. In the left navigation, expand **src** > **widgets** and click on `custom.js` to open it.  
 
 ![edit customjs](../images/editcustomjs.png)
 
-- Add the following script right below the helloWorld section we worked on earlier
+- Add the following script right below the helloWorld section we worked on earlier.
 
 ```javascript
 	XCC.X.cssgrid = function (widgetPath) {
@@ -24,51 +24,51 @@ Return to Visual Studio Code and in the left navigation expand **src** > **widge
 	};
 ```
 
-Your screen should look similar to the screen shot
+Your screen should look similar to this:
 
 ![cssgrid customjs](../images/cssgridcustomjs.png)
 
 
-The name of the widget is `cssgrid` as seen in the screen shot for the line that starts with `XCC.X.cssgrid = function() `.  We need to add that exact name to the appropriate variable.  This is a custom widget that is NOT replacing an existing ICEC widget.  We can add it to the `XCC.X.customWidgetsDEV` array as seen in the screen below:
+The name of the widget is `cssgrid`, as seen in the screen shot for the line that starts with `XCC.X.cssgrid = function() `.  We need to add that exact name to the appropriate variable.  This is a custom widget that is NOT replacing an existing ICEC widget.  We can add it to the `XCC.X.customWidgetsDEV` array as seen in the screen below:
 <br/>
 ![customize page management](../images/registercssgrid.png)
 
 Note: if you have not yet updated the address to your Development server, you need to do so now.  
 
 <br/>
-- Click on **File** > **Save** to save the update you just made.
+- Click **File** > **Save** to save the update you just made.
 
 Return to the ICEC page using the Chrome browser.
 
-- Click on **Customize** > **Engagement Center Settings** > **Customization Files** > **Upload File** 
+- Click **Customize** > **Engagement Center Settings** > **Customization Files** > **Upload File**. 
 ![upload customization](../images/upload-customization.png)
 
-- Navigate to the location of the `custom.js` that you saved in an earlier step, select it and click on Open. You should receive a result similar to the screen below confirming the file was uploaded.
+- Navigate to the location of the `custom.js` that you saved in an earlier step, select it, and click **Open**. You should receive a result similar to the screen below confirming the file was uploaded.
 
 ![upload customjs](../images/upload-customjs.png)
 <br/>
 
 ###### 2. Add the cssgrid widget to the CSSGRID page
 
-- Click on the nagivation link for CSSGRID to be taken to that page. Validate by looking for the page title and the `?page=cssGrid` in the URL displayed by the browser
-- Click on **Customize** > **Widgets** > **Create Widget** 
+- Click on the nagivation link for CSSGRID to be taken to that page. Validate by looking for the page title and the `?page=cssGrid` in the URL displayed by the browser.
+- Click on **Customize** > **Widgets** > **Create Widget**.
 
 <p>
 <span class="label label-info">Warning</span>
 If the widget does not show up in the list, bring up your developer console and reload the page after clearing the cache as was done in a previous exercise.
 </p>
 
-- Select the `LAB8498 CSS Grid` widget from the list and in the ID field enter a unique name **LabCSSGrid** and click on **Create**.
+- Select the `LAB8498 CSS Grid` widget from the list and in the ID field enter a unique name **LabCSSGrid** and click **Create**.
 
-The widget is added to the page with html code we added inside of it.  
+The widget is added to the page with HTML code we added inside of it.  
 
 <br/>
 
 ###### 3. Modifying and updating the widget
 
-Return to Visual Studio Code and and let's add some styling to our plain HTML
+Return to Visual Studio Code. Let's add some styling to our plain HTML.
 
-- Copy and paste this code under the `src/widgets/cssgrid/index.css
+- Copy and paste this code under the `src/widgets/cssgrid/index.css`.
 
 ```css
 .mpcontainer {
@@ -104,11 +104,11 @@ Return to Visual Studio Code and and let's add some styling to our plain HTML
 }
 
 ```
-- Take a look at the index.js and validate that the `index.css` is imported.  This will pull the CSS into the js file that is bundled by webpack.
+- Take a look at the index.js and validate that `index.css` is imported.  This will pull the CSS into the js file that is bundled by webpack.
 
-- Save the modified files
+- Save the modified files.
 
-In order to make the updates to the widget available to ICEC we are going to run a `build` task that packages all the required files/changes and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
+In order to make the updates to the widget available to ICEC, we are going to run a `build` task that packages all the required files/changes and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
 - Issue the following command from a terminal window while in `src/widgets/cssgrid` directory.
 
@@ -116,20 +116,20 @@ In order to make the updates to the widget available to ICEC we are going to run
 npm run build
 ```
 
-- Back to your browser, refresh the cssGrid page to see the changes
+- Back in your browser, refresh the cssGrid page to see the changes.
 
 ![cssgrid styled](../images/cssgridstyled.png)
 
-- Click on Customize on the page and experiment drag and dropping (moving) the widget around the ICEC page and see how it is responsive.  
+- Click on Customize on the page and experiment with drag and dropping (moving) the widget around the ICEC page to see how it is responsive.  
 
-You can now make updates to the widget as you iterate through your code, run a build process and test.  When you are ready to deploy to production, the following steps can be performed
+You can now make updates to the widget as you iterate through your code, run a build process, and test.  When you are ready to deploy to production, perform the following steps.
 
 <br/>
 ###### 4. Deploying to Production
 
-Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Every time you run a build process the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
+Now that you have completed development of your widget, you want to deploy it to the ICEC server.  Every time you run a build process, the minified version of your code is added to the `dist` folder.  You can take all the files from that directory and upload them to the ICEC server under customization.  
 
-To switch from your development server to the ICEC server for serving the files, update the `custom.js` file and switch the location of the widget registration from the `XCC.X.customWidgetsDEV` array to the `XCC.X.customWidgetsPROD`.  
+To switch from your development server to the ICEC server for serving the files, update the `custom.js` file and switch the location of the widget registration from the `XCC.X.customWidgetsDEV` array to the `XCC.X.customWidgetsPROD` array.  
 
 ```javascript
 	// These should custom Widgets you created and/or are making available.
@@ -148,4 +148,4 @@ To switch from your development server to the ICEC server for serving the files,
 	];  
 ```
 
-Refresh your browser cache and the widget will load from the ICEC server instead of your development server
+Refresh your browser cache and the widget will load from the ICEC server instead of your development server.
