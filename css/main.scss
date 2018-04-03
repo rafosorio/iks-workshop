@@ -91,3 +91,25 @@ body {
 .nav{
   padding-left: 40px; 
 }
+
+
+aside, aside code, .note, .note code {
+  background: #e1f5fe;
+  color: #0288d1;
+}
+
+aside {
+  display: block;
+  font-size: 14px;
+  margin: 16px 0;
+  padding: 12px 24px 12px 60px;
+}
+
+aside::before, .note::before {
+  color: #039be5;
+  content: 'star';
+  float: left;
+  word-wrap: normal;
+  margin-left: -36px;
+  text-rendering: optimizeLegibility;
+}
