@@ -5,13 +5,13 @@ permalink: /docs/vimeo-home/
 
 <a name="top"/>
 
-We are going to build a widget to access videos from Vimeo.  This exercise is going to help us get familiar with how to access external content leveraging open source libraries and using jQuery.
+We are going to build a widget to access videos from Vimeo.  This exercise is going to help us get familiar with how to access external content, leveraging open source libraries and using jQuery.
 
 ###### 1. Create a new widget
 
-We will now create a new widget and name it `vimeo`, the name is important to follow along in the exercises.  In a Visual Studio Code terminal window make sure that you are in the `icec-widgets-starter` directory.
+We will now create a new widget and name it `vimeo`; the name is important to follow along in the exercises.  In a Visual Studio Code terminal window make sure that you are in the `icec-widgets-starter` directory.
 
-- issue the following command:
+Issue the following command:
 
 ```
 node scripts/createWidget.js vimeo jquery
@@ -23,7 +23,7 @@ node scripts/createWidget.js vimeo jquery
 
 ###### 2. Initialize the widget
 
-The default widget comes with a set of JavaScript modules and build tools pre-configured.  We need to install them.  Switch to directory that was just created
+The default widget comes with a set of JavaScript modules and build tools pre-configured.  We need to install them.  Switch to the directory that was just created.
 
 - run `npm install`
 
@@ -35,11 +35,11 @@ npm install
 <br/>
 ###### 3. Adding sample code to the cssgrid widget
 
-In the left navigation for Visual Studio code, expand the `src/widgets/vimeo` folder, if you do not see the vimeo folder, click on the refresh icon on the top right to update your folder list.
+In the left navigation for Visual Studio code, expand the `src/widgets/vimeo` folder. If you do not see the vimeo folder, click the refresh icon on the top right to update your folder list.
 
 ![edit cssgrid widget](../images/editcssgrid.png)
 
-- Click on the `index.js` to modify it.  Does this look familiar?  Copy and paste the following javascript to replace the `var html = Hello World`
+- Click on the `index.js` to modify it.  Does this look familiar?  Copy and paste the following javascript to replace the `var html = Hello World`.
 
 ```javascript
         var html = `
@@ -58,7 +58,7 @@ In the left navigation for Visual Studio code, expand the `src/widgets/vimeo` fo
         `
 ```
 
-- The above script snippet is from an open source library; get more details [here](https://wesleyluyten.com/projects/vimeo-wrap)
+- The above script snippet is from an open source library; get more details [here](https://wesleyluyten.com/projects/vimeo-wrap).
 
 - Save the file.
 
@@ -66,7 +66,7 @@ In the left navigation for Visual Studio code, expand the `src/widgets/vimeo` fo
 
 In order to make the widget available to ICEC we are going to run a `build` task that packages all the required files and deploy them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
-- Issue the following command from a terminal window while in `src/widgets/vimeo` directory.
+- Issue the following command from a terminal window while in the `src/widgets/vimeo` directory.
 
 ```
 npm run build
@@ -74,6 +74,6 @@ npm run build
 
 - From the Visual Studio Code Explorer on the left panel, navigate to the `src/widgets/vimeo/dist` and review the file there.  
 
-- Repeat the above step for the `build/public` folder
+- Repeat the above step for the `build/public` folder.
 
-- NOTE: This widget is pure JavaScript with the html code inside of it, so only the js files are produced.
+- NOTE: This widget is pure JavaScript with the HTML code inside of it, so only the .js files are produced.
