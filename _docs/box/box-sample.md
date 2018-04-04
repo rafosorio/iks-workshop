@@ -30,9 +30,7 @@ Edit your `custom.js`
 The name of the widget is `boxDemo` as seen from the line that starts with `XCC.X.boxDemo = function() `.  We need to add that exact name to the appropriate variable.  We can add it to the `XCC.X.customWidgetsDEV` array.
 <br/>
 
-- Click **File** > **Save** to save the update you just made.
-
-Add the widget to an ICEC page and give it a spin.  This widget allows you to login with your Enterprise Box account and is not dependent on the Developer Token
+Save your `custom.js`, add the widget to an ICEC page and give it a spin.  This widget allows you to login with your Enterprise Box account and is not dependent on the Developer Token
 
 <br/>
 
