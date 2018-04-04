@@ -32,7 +32,7 @@ The name of the widget is `boxDemo` as seen from the line that starts with `XCC.
 
 - Click **File** > **Save** to save the update you just made.
 
-Add the widget to an ICEC page and give it a spin.  THis widget allows you to login with your Enterprise Box account and is not dependent on the Developer Token
+Add the widget to an ICEC page and give it a spin.  This widget allows you to login with your Enterprise Box account and is not dependent on the Developer Token
 
 <br/>
 

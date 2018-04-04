@@ -66,7 +66,7 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
 <div id="myTabContent" class="tab-content">
 
   <div class="tab-pane fade" id="blogs1">
-  <br/>
+    <br/>
       <p>NOTE: The News Channel and News Slider widgets are the same.</p>
       <p>Displays the first part of the content of blog entries along with the first image from each, regard of where that image is located in the blog post. Wider sizes show hints of the next blog entry, as seen below.</p>
       <p>RECOMMENDATION: Use square images, not rectangular (at least for the first image).</p>
@@ -76,15 +76,32 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
   </div>
 
   <div class="tab-pane fade" id="blogs2">
-  <br/>
+    <br/>
       <p>Displays blog entries from specified Communities. Can pull from multiple sources. Displays only headline and creation date. Does not show any of the body, nor photos.</p>
-      <img src="../images/blogs//newslist1.png">
+      <img src="../images/blogs/newslist1.png">
+      <br/>
+      <img src="../images/blogs/newslist2.png">
+  </div>
+
+  <div class="tab-pane fade" id="blogs3">
+    <br/>
+      <p>Displays the first image and truncated copy from blog entries, with individual entries stacked vertically. Although this will grow to fit any width column, the image grows accordingly but the amount of copy remains constant. Therefore, using this widget in larger areas really doesn’t make a lot of sense.
+RECOMMENDATION: Horizontal images are preferred for this widget in the larger usages (as shown on the left below. Square or vertical for smaller applications as on the right.</p>
+      <img src="../images/blogs/newsoverview1.png">
+      <br/>
+      <img src="../images/blogs/newsoverview2.png">
+  </div>
+
+  <div class="tab-pane fade" id="blogs4">
+    <br/>
+      <p>Displays blog entries from specified Communities. Can pull from multiple sources. Displays only headline and creation date. Does not show any of the body, nor photos.</p>
+      <img src="../images/blogs/newslist1.png">
       <br/>
       <img src="../images/blogs/newslist2.png">
   </div>
 
    <div class="tab-pane fade" id="profiles1">
-   <br/>
+    <br/>
       <p>As you might expect, shows the members of a community. By default, it shows 5 to a page but that can be changed using the page size setting in the configuration (which is set to 4 in the images here).</p>
       <img src="../images/communitymembers.png">
       <br/>
@@ -92,7 +109,7 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
   </div>
 
   <div class="tab-pane fade" id="profiles2">
-  <br/>
+    <br/>
     <p>NOTE: This only works if you have entered the birthday properly in the user's Profile, which requires *-MM-DD format (note the leading asterisk).</p>
       <img src="../images/peoplebirthday1.png">
       <br><p>If you directly edit the user Profile, it shows an example of the correct date formatting. However, if you use the Preferences widget (as shown below) or the Profile Completion widget, it will NOT show the correct format and will accept all kinds of formats that won't work.</p>
@@ -100,8 +117,8 @@ Widgets on this page are organized by content type and prepared by Scott Good, N
   </div>
 
   <div class="tab-pane fade" id="catchall">
-  <br/>
-  <p>Details Coming soon</p>
+    <br/>
+    <p>Details Coming soon</p>
   </div>
 
 </div>
