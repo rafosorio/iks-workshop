@@ -8,7 +8,7 @@ permalink: /docs/box-sample/
 We built an example of this widget that allows for end user authentication, the widget is a sample and is hosted on a Bluemix server.  You can add this widget to your own ICEC environment to see how it works.  
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ynvr8SZx6Nw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="853" height="505" src="https://www.youtube.com/embed/Ynvr8SZx6Nw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ###### 1. Register the widget
 
