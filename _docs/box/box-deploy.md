@@ -133,7 +133,19 @@ if (typeof XCC !== 'undefined') {
 render(<App token={token} />, container);
 ```
 
+In order to make the updates to the widget available to ICEC we are going to run a `build` task that packages all the required files/changes and deploys them to our Development server under the `/build/public` directory and also under the `dist` directory. 
 
+- Issue the following command from a terminal window while in the `src/widgets/box` directory.
+
+```
+npm run build
+```
+
+- Back in your browser, refresh the Box page to see the changes.
+
+- Edit the widget and you should now see the option to add your Developer Token, this can be useful as the Developer Token that Box provides is only valid for 1 hour.  It also provides a good example on adding edit capabilities to a widget. 
+
+You can now make updates to the widget as you iterate through your code, run a build process, and test.  When you are ready to deploy to production, perform the following steps.
 
 <br/>
 ###### 4. Deploying to Production
