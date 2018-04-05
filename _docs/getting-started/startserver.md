@@ -9,6 +9,13 @@ We will use an Express server to host our widgets during development and testing
 
 Open a new terminal by selecting **View** > **Integrated Terminal**
 
+Make sure that you are in the directory of the repository that you cloned earlier, you may need to change to it first by issuing the following command:
+
+```
+cd icec-widgets-starter
+```
+
+Once in the directory issue the following command:
 ```
 npm install
 ```
