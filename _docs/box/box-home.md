@@ -34,7 +34,7 @@ npm install
 In the left navigation for Visual Studio code, expand the `src/widgets/box` folder. If you do not see the box folder, click the refresh icon on the top right to update your folder list.
 
 - Click on `index.js` to modify it.
-- This widget an be surfaced as is in ICEC after running a `build` and registering it inside the custom.js.  But we already did that with the hello world widget, so we are going to make it something more interesting. We are going to access a Box folder and download and upload files via that widget. 
+- This widget can be surfaced as is in ICEC after running a `build` and registering it inside the custom.js.  But we already did that with the hello world widget, so we are going to make it something more interesting. We are going to access a Box folder and download and upload files via that widget. 
 
 - This widget requires a Box Account and a Token to access the Box folder.  For the purpose of this lab, you should not use an enterprise account, so sign up for a [Box Developer account](https://developer.box.com/) and [create a Developer Token](https://blog.box.com/blog/introducing-developer-tokens/)
 
