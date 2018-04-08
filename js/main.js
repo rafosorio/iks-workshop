@@ -75,21 +75,48 @@ $(function() {
   $("#markdown-content-container img").addClass("img-responsive");
 
   //Begin no idea what I am doing
-  /*
-  var allCodeBlocksElements = $("code");
+  var clipboard = new ClipboardJS('.btn');
+  
+  var allCodeBlocksElements = $("pre > code");
 
   allCodeBlocksElements.each(function(i) {
     var currentId = "codeblock" + (i + 1);
     $(this).attr("id", currentId);
 
     var clipButton =
-      '<button class="btn" data-clipboard-target="#' +
+      '<button title="Copy to clipboard" class="btn" data-clipboard-target="#' +
       currentId +
       '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
-    $(this).after(clipButton);
+    $(this).before(clipButton);
   });
 
-  new Clipboard(".btn");
-  */
+  clipboard.on('success', function(e) {
+      console.info('Action:', e.action);
+      console.info('Text:', e.text);
+      console.info('Trigger:', e.trigger);
+
+      e.clearSelection();
+  });
+
+  clipboard.on('error', function(e) {
+      console.error('Action:', e.action);
+      console.error('Trigger:', e.trigger);
+  });
+  
   //End no idea what I am doing
+
+  //Bootstrap video modal Begin
+  var $videoSrc;  
+  $('.video-btn').click(function() {
+      $videoSrc = $(this).data( "src" );
+  });
+
+  $('#videoModal').on('shown.bs.modal', function (e) {
+    $("#video").attr('src',$videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1&html5=1" ); 
+  })
+    
+  $('#videoModal').on('hide.bs.modal', function (e) {
+      $("#video").attr('src',$videoSrc); 
+  }) 
+  
 });

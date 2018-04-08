@@ -7,11 +7,32 @@ permalink: /docs/tips/
 
 Sometimes during widget development you may run into an issue.  Common issues as they are encountered will be documented here in a short video.
 
+<hr>
 #### ICEC Page is loaded empty without a Customize button
-<div class="embed-responsive embed-responsive-16by9">
-  <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe> -->
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2yj6M8qs7U8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<p>
+You may encounter a problem with the ICEC page not loading and/or the Customize button not showing up on the page.  This is likely due to having made a mistake inside the custom.js file and the script not running to completion.  This short clip will demonstrate how to resolve this issue.  
+</p>
+<button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/2yj6M8qs7U8" data-target="#videoModal">
+  Play clip
+</button>
+
+<hr>
+
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>        
+            <h4 class="modal-title">Empty page w/o a Customize button</h4>
+        </div>
+        <div class="modal-body">       
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="100%" height="500" src="" id="video" allowscriptaccess="always" frameborder="0" allowfullscreen>></iframe>
+            </div>
+        </div>
+    </div>
+  </div>
 </div>
-
-
-<!-- <iframe width="853" height="505" src="https://www.youtube.com/embed/2yj6M8qs7U8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->

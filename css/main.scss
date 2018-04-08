@@ -113,3 +113,46 @@ aside::before, .note::before {
   margin-left: -36px;
   text-rendering: optimizeLegibility;
 }
+
+//Bootstrap video modal
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+.modal-body {
+  position: relative;
+}
+.modal-header {
+  text-align: center;
+}
+// .close {
+//   position:absolute;
+//   right:-30px;
+//   top:0;
+//   z-index:999;
+//   font-size:2rem;
+//   font-weight: normal;
+//   color:#fff;
+//   opacity:1;
+// }
+
+
+//second example
+.bs-example{
+  margin: 20px;
+}
+.modal-content iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+.highlight {
+  max-width: 975px;
+  position: relative;
+}
+.highlight .btn {
+  position: absolute;
+  padding: 2px 6px;
+  right: 4px;
+  top: 4px;
+}
