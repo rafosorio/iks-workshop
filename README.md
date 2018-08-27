@@ -7,7 +7,7 @@ You need Ruby and gem before starting, by default these are installed on Mac OS,
 gem install bundler
 
 # clone the project
-git clone hhttps://github.com/dprosper/icec-widgets-lab.git
+git clone https://github.com/dprosper/icec-widgets-lab.git
 cd icec-widgets-lab
 
 # run jekyll with dependencies
