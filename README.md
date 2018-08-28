@@ -7,7 +7,7 @@ You need Ruby and gem before starting, by default these are installed on Mac OS,
 sudo gem install bundler
 
 # clone the project
-git clone https://github.com/raforio/wws-nodejs-lab.git
+git clone https://github.com/rafosorio/wws-nodejs-lab.git
 cd wws-nodejs-lab
 
 # run jekyll with dependencies
