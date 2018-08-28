@@ -11,7 +11,7 @@
   - jumpstart
   - prereqlab
 
-- title: Lab 1 - Notification Application
+- title: Lab 1 - Notification App
   docs:
   - clone-app-lab1
   - register-app-lab1
@@ -19,7 +19,7 @@
   - deploy-app-lab1
   - external-rest-lab1
 
-- title: Lab 2 - Listener Application
+- title: Lab 2 - Listener App
   docs:
   - clone-app-lab2
   - register-app-lab2
@@ -27,7 +27,7 @@
   - deploy-app-lab2
   - external-rest-lab2
 
-- title: Lab 3 - Annotation Application
+- title: Lab 3 - Annotation App
   docs:
   - clone-app-lab3
   - register-app-lab3
@@ -35,7 +35,7 @@
   - deploy-app-lab3
   - external-rest-lab3
 
-- title: Lab 4 - Action Fulfillment Application
+- title: Lab 4 - Action Fulfillment App
   docs:
   - clone-app-lab4
   - register-app-lab4
