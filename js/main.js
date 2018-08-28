@@ -7,42 +7,42 @@ $(function() {
 
   //DP: Trying something
   $("#ph-1").click(function() {
-    window.location.href = "/icec-widgets-lab/docs/icec/";
+    window.location.href = "/wws-nodejs-lab/docs/icec/";
     return;
   });
 
   $("#ph-2").click(function() {
-    window.location.href = "/icec-widgets-lab/docs/home/";
+    window.location.href = "/wws-nodejs-lab/docs/home/";
     return;
   });
 
   $("#ph-3").click(function() {
-    window.location.href = "/icec-widgets-lab/docs/helloworld-home/";
+    window.location.href = "/iwws-nodejs-lab/docs/helloworld-home/";
     return;
   });
 
   $("#ph-4").click(function() {
-    window.location.href = "/icec-widgets-lab/docs/cssgrid-home/";
+    window.location.href = "/iwws-nodejs-lab/docs/cssgrid-home/";
     return;
   });
 
   $("#ph-5").click(function() {
-    window.location.href = "/icec-widgets-lab/docs/vimeo-home/";
+    window.location.href = "/wws-nodejs-lab/docs/vimeo-home/";
     return;
   });
 
   $("#ph-6").click(function() {
-    window.location.href = "/icec-widgets-lab/docs/box-home/";
+    window.location.href = "/wws-nodejs-lab/docs/box-home/";
     return;
   });
 
   $("#ph-7").click(function() {
-    window.location.href = "/icec-widgets-lab/docs/businessCard-home/";
+    window.location.href = "/wws-nodejs-lab/docs/businessCard-home/";
     return;
   });
 
   $("#ph-8").click(function() {
-    window.location.href = "/icec-widgets-lab/docs/more-home/";
+    window.location.href = "/wws-nodejs-lab/docs/more-home/";
     return;
   });
 
@@ -76,7 +76,7 @@ $(function() {
 
   //Begin no idea what I am doing
   var clipboard = new ClipboardJS('.btn');
-  
+
   var allCodeBlocksElements = $("pre > code");
 
   allCodeBlocksElements.each(function(i) {
@@ -102,21 +102,21 @@ $(function() {
       console.error('Action:', e.action);
       console.error('Trigger:', e.trigger);
   });
-  
+
   //End no idea what I am doing
 
   //Bootstrap video modal Begin
-  var $videoSrc;  
+  var $videoSrc;
   $('.video-btn').click(function() {
       $videoSrc = $(this).data( "src" );
   });
 
   $('#videoModal').on('shown.bs.modal', function (e) {
-    $("#video").attr('src',$videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1&html5=1" ); 
+    $("#video").attr('src',$videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1&html5=1" );
   })
-    
+
   $('#videoModal').on('hide.bs.modal', function (e) {
-      $("#video").attr('src',$videoSrc); 
-  }) 
-  
+      $("#video").attr('src',$videoSrc);
+  })
+
 });
