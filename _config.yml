@@ -5,7 +5,7 @@ description: >
   Workspace NodeJS Lab.
 
 baseurl: "/wws-nodejs-lab" # the subpath of your site, e.g. /blog/
-url: https://dprosper.github.io/icec-widgets-lab # the base hostname & protocol for your site
+url: https://github.com/rafosorio/wws-nodejs-lab # the base hostname & protocol for your site
 git_address: https://github.com/rafosorio/wws-nodejs-lab
 git_edit_address: https://github.com/rafosorio/wws-nodejs-lab/blob/gh-pages
 
