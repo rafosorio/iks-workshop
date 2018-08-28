@@ -1,41 +1,49 @@
 - title: Overview
   docs:
-  - icec
-  - widgets
-  - libraries
-  - font-awesome
+  - workspace
+  - whydev
+  - apps
 
 - title: Getting Started
   docs:
-  - home
-  - clonerepo
-  - startserver
-  - login
-  - navigation
-  - customjs
-  - tips
+  - prereq
+  - preview
+  - jumpstart
+  - prereqlab
 
-- title: Hello World
+- title: Lab 1 - Notification Application
   docs:
-  - helloworld-home
+  - clone-app-lab1
+  - register-app-lab1
+  - edit-app-lab1
+  - deploy-app-lab1
+  - external-rest-lab1
 
-- title: CSS Grid
+- title: Lab 2 - Listener Application
   docs:
-  - cssgrid-home
-  - cssgrid-deploy
+  - clone-app-lab2
+  - register-app-lab2
+  - edit-app-lab2
+  - deploy-app-lab2
+  - external-rest-lab2
 
-- title: Vimeo
+- title: Lab 3 - Annotation Application
   docs:
-  - vimeo-home
-  - vimeo-deploy
+  - clone-app-lab3
+  - register-app-lab3
+  - edit-app-lab3
+  - deploy-app-lab3
+  - external-rest-lab3
 
-- title: Box
+- title: Lab 4 - Action Fulfillment Application
   docs:
-  - box-home
-  - box-deploy
-  - box-sample
+  - clone-app-lab4
+  - register-app-lab4
+  - edit-app-lab4
+  - deploy-app-lab4
+  - external-rest-lab4
 
-- title: Business Card
+- title: Lab 5 - Space Templates
   docs:
   - businessCard-home
   - businessCard-deploy
