@@ -39,5 +39,5 @@ In all mini-labs, you will use IBM Cloud platform to fork and edit your code (no
 All these tools installation are straightforward, take the defaults during installation and you will be all set.
 
 Before you start the lab, you will need to have:
-1.	A Workspace account. If you don't have a Workspace account, check here how to create a free Watson Workspace Preview account. 
+1.	A Workspace account. If you don't have a Workspace account, check <a href="https://ibm.invisionapp.com/share/3ZNRPOVU8GM" target="_blank">here</a> how to create a free Watson Workspace Preview account. 
 2.	An IBM Cloud (Bluemix) account. As described before, in this lab, you will create and deploy your app using IBM Cloud Platform.  After you create the Workspace account, you will have an IBMid for this user, so you just need to enable IBM Cloud platform for this user, it is a really simple process. Please access the IBM Cloud site and follow the “Create a free account” process.
