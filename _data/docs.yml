@@ -6,7 +6,7 @@
 
 - title: Getting Started
   docs:
-  - prereq
+  - labsetup
   - preview
   - jumpstart
   - prereqlab
