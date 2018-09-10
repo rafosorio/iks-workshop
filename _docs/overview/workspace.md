@@ -11,6 +11,24 @@ IBM Watson Workspace comes with everything a user needs to do their best work. U
 <p>Stay tuned to our <a href="https://help.workspace.ibm.com/hc/en-us/articles/230056668-News-Updates">Recent updates</a> article, because we're very <a href="https://developer.ibm.com/code/open/case-study-consuming-open-source/">busy developing new features</a>, integrating with more apps, and infusing more artificial intelligence that puts Watson to work for you.  </p>
 
 <p> </p>
+
+<h2>Who can use it?</h2>
+<p><span class="author-258447245 font-color-000000 font-size-medium">Anyone can use Watson Workspace.  It's easy to get started with our Preview edition, just sign in (or register) with your IBMid to <a href="https://workspace.ibm.com">https://workspace.ibm.com</a> and you can be up and running in seconds.  Also check out <strong>Watson Workspace Essentials.</strong>  It offers key enterprise capabilities such as:   </span></p>
+<ul>
+<li>SAML based single-sign on</li>
+<li>Organizational administrative controls</li>
+<li>Managed guest user access</li>
+<li>Service Level Agreement</li>
+<li>IBM enterprise grade support</li>
+<li>Public spaces</li>
+<li>and more. </li>
+</ul>
+<p><strong>WatsonWorkspace Plus</strong> includes everything in Essentials plus (no pun intended) Zoom video conferencing - the industry-leading favorite - to bring the best in productivity and communications to enterprise teams everywhere.</p>
+<p>To learn more about our editions, check out <a href="https://help.workspace.ibm.com/hc/articles/115012358867">Understanding Watson Workspace Editions and Features. </a></p>
+
+<p></p>
+
+
 <h2>What can I do with Watson Workspace?</h2>
 <p>There's a lot you can do with Watson Workspace depending on the work you need to get done.  We've made it as easy as possible to invite the people you work with and then we trust you'll find plenty to do to stay busy.  Here are the basics: </p>
 <ul>
