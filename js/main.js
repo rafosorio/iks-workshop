@@ -7,12 +7,12 @@ $(function() {
 
   //DP: Trying something
   $("#ph-1").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/worspace/";
+    window.location.href = "/wws-nodejs-lab/docs/workspace/";
     return;
   });
 
   $("#ph-2").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/labsetup/";
+    window.location.href = "/wws-nodejs-lab/docs/intro/";
     return;
   });
 
