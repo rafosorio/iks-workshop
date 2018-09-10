@@ -17,12 +17,12 @@ $(function() {
   });
 
   $("#ph-3").click(function() {
-    window.location.href = "/iwws-nodejs-lab/docs/helloworld-home/";
+    window.location.href = "/wws-nodejs-lab/docs/helloworld-home/";
     return;
   });
 
   $("#ph-4").click(function() {
-    window.location.href = "/iwws-nodejs-lab/docs/cssgrid-home/";
+    window.location.href = "/wws-nodejs-lab/docs/cssgrid-home/";
     return;
   });
 
