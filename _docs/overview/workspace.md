@@ -42,5 +42,5 @@ IBM Watson Workspace comes with everything a user needs to do their best work. U
 <li>Catch up more easily when you've been away. Whether you were on vacation for a week or focusing elsewhere for a few minutes, you can see intelligent summaries of what you missed in condensed Moments, powered by Watson</li>
 <li>And, oh yes, we've got your emojis.🎈 🚀 📚 👏 </li>
 </ul>
-<p>For a complete list of features check out <a href="https://help.workspace.ibm.com/hc/en-us/articles/115012358867" target="_blank">Understanding plans and features for Watson Workspace</a>.  Also check out our <a href="https://help.workspace.ibm.com/hc/articles/115012880188" target="_blank">Tour</a>.   </p>ok
+<p>For a complete list of features check out <a href="https://help.workspace.ibm.com/hc/en-us/articles/115012358867" target="_blank">Understanding plans and features for Watson Workspace</a>.  Also check out our <a href="https://help.workspace.ibm.com/hc/articles/115012880188" target="_blank">Tour</a>.   </p>
 <p> </p>
