@@ -22,6 +22,7 @@
 
 - title: Lab 2 - Listener App
   docs:
+  - intro-lab2
   - clone-app-lab2
   - register-app-lab2
   - edit-app-lab2
@@ -30,6 +31,7 @@
 
 - title: Lab 3 - Annotation App
   docs:
+  - intro-lab3
   - clone-app-lab3
   - register-app-lab3
   - edit-app-lab3
@@ -38,6 +40,7 @@
 
 - title: Lab 4 - Action Fulfillment App
   docs:
+  - intro-lab4
   - clone-app-lab4
   - register-app-lab4
   - edit-app-lab4
@@ -46,6 +49,7 @@
 
 - title: Lab 5 - Space Templates
   docs:
+  - intro-lab5
   - businessCard-home
   - businessCard-deploy
 
