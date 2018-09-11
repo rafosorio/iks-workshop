@@ -22,7 +22,7 @@ In this section you will see how to edit an application using Eclipse Orion Web 
 `_5.` And open the “**index.js**” file.
 ![Opening Index.js](../images/lab2/indexjs.png)
 
-`_6.` On the index.js let’s start changing the “**APP_ID**” (1) with the App Id value of previous step,  the “**APP_SECRET**” (2) with the App Secret value of previous step and the “**SPACE_ID**” (3) with the Sales Team space ID.  
+`_6.` On the index.js let’s start changing the “**APP_ID**” (1) with the App Id value of previous step,  the “**APP_SECRET**” (2) with the App Secret value of previous step and the “**SPACE_ID**” (3) with the Sales Team space ID. Change the **APP_WEBHOOK_SECRET** (4) with the “Inspiration Webhook” Secret (see previous section).  
 ![Changing Index.js](../images/lab2/changing-index.png)
 
 `_7.` Let’s analyze the code of the app. This app is exactly the same app of the lab #1, please see the Notification lab for more details about the app skeleton). The only big difference here is: you need a callback function to manage the events.  So far, the callback function is empty (see the picture below).
