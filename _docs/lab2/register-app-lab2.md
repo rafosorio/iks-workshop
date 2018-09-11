@@ -27,7 +27,7 @@ Now, let’s see how to register an Application in the Watson Work Services Deve
 `_6.` Write down the **App ID** (1) and the **App Secret** (2). Saving the App Secret somewhere is especially important, because you will not be able to view it after closing this dialogue. When done click “**Got it**” (3).
 ![App Secret](../images/lab1/app-secret.png)
 
-*Nice Job! Now you have your app registered in Watson Work Services. But now you need to create a code for this app. You will do it in the next section.*
+*Nice Job! Now you have your app registered in Watson Work Services. But now you need to listen to event. You will do it in the next section.*
 
 <br/>
 [Back to Top](#top)  
