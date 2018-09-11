@@ -13,6 +13,7 @@
 
 - title: Lab 1 - Notification App
   docs:
+  - intro-lab1
   - clone-app-lab1
   - register-app-lab1
   - edit-app-lab1
