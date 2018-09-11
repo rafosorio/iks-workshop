@@ -38,9 +38,9 @@ IBM Watson Workspace comes with everything a user needs to do their best work. U
 <li>Launch meetings, powered by Zoom, and connect face-to-face with anyone around the globe. </li>
 <li>Work with files and other content. Upload and share files, paste images or animated gifs.</li>
 <li>Search your entire conversation history to find messages or files instantly.  Narrow your search to just something someone said or a single space. </li>
-<li>Connect the tools you use every day. You can add apps to a space to do things like get Twitter updates, set reminders in your calendar (via IFTTT applets), even post to a Slack channel. Developers can create, share and publish their own apps using our APIs and set reminders in your calendar. You can even create your own apps – check out our <a href="https://developer.watsonwork.ibm.com">developer experience</a>.</li>
+<li>Connect the tools you use every day. You can add apps to a space to do things like get Twitter updates, set reminders in your calendar (via IFTTT applets), even post to a Slack channel. Developers can create, share and publish their own apps using our APIs and set reminders in your calendar. You can even create your own apps – check out our <a href="https://developer.watsonwork.ibm.com" target="_blank">developer experience</a>.</li>
 <li>Catch up more easily when you've been away. Whether you were on vacation for a week or focusing elsewhere for a few minutes, you can see intelligent summaries of what you missed in condensed Moments, powered by Watson</li>
 <li>And, oh yes, we've got your emojis.🎈 🚀 📚 👏 </li>
 </ul>
-<p>For a complete list of features check out <a href="https://help.workspace.ibm.com/hc/en-us/articles/115012358867">Understanding plans and features for Watson Workspace</a>.  Also check out our <a href="https://help.workspace.ibm.com/hc/articles/115012880188">Tour</a>.   </p>
+<p>For a complete list of features check out <a href="https://help.workspace.ibm.com/hc/en-us/articles/115012358867" target="_blank">Understanding plans and features for Watson Workspace</a>.  Also check out our <a href="https://help.workspace.ibm.com/hc/articles/115012880188" target="_blank">Tour</a>.   </p>
 <p> </p>
