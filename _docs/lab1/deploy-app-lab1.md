@@ -1,5 +1,5 @@
 ---
-title: Deploying and Running your Notification App
+title: Deploying and Running
 permalink: /docs/deploy-app-lab1/
 ---
 
@@ -39,7 +39,7 @@ Where XX is `<your initials>`.  Your result should be a basic string page to inf
 
 `_9.` Go back to the Workspace page. On the “Workspace Lab” space check the new message posted by the “Inspirational JS Bot”.
 ![Post Message to Space](../images/lab1/inspirational-msg.png)
-The use case here is really simple. However you can extend this code to consume business applications to provide message notifications in a space. Next section you will see how to do it. 
+The use case here is really simple. However you can extend this code to consume business applications to provide message notifications in a space. Next section you will see how to do it.
 
 <br/>
 [Back to Top](#top)  
