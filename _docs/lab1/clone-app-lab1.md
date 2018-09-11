@@ -24,9 +24,9 @@ permalink: /docs/clone-app-lab1/
 `_7.` On the creation page, review the diagram of the toolchain that you are about to create. The diagram shows each tool integration in its lifecycle phase in the toolchain. On the Toolchain Name, enter **“wws-hellospace-<your initials>”**.
 ![Toolchain Name](../images/toolchain-name.png)
 
-`_8.` On the “Git Repos and Issue Tracking” section, select the “**Clone**” (1) as “**Repository type**”. On the “**Source repository URL**” enter:
+`_8.` On the “Git Repos and Issue Tracking” section, select the “**Clone**” (1) as “**Repository type**”. On the “**Source repository URL**” enter (2):
 ```
-https://github.com/rafosorio/wws-hellospace-ro   (2)
+https://github.com/rafosorio/wws-hellospace-ro
 ```
 Keep the default value for “**Repository Name**” and disable “**Enable Issues**” (3) and **disable “Track deployment of code changes”** (4).  And click “**Create**” (5).
 
