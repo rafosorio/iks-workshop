@@ -21,8 +21,7 @@ Now, let’s see how to register an Application in the Watson Work Services Deve
 `_4.` On “Your Apps” page, you should see your apps here (if you have one). Let’s create a new app.  Click on “**Create new app**” button.
 ![Creating WWS App](../images/create-new-app.png)
 
-`_5.` On the “**App name**” enter **“Inspirational JS Bot” + <your initials>** (1). On the “**Short description**”, you are welcome to define a cool description for your first app (2). When completed, click “**Create**” (3).
-![Creating WWS App](../images/create-new-app.png)
+`_5.` On the “**App name**” enter **“Inspirational JS Bot”** + **<your initials>** (1). On the “**Short description**”, you are welcome to define a cool description for your first app (2). When completed, click “**Create**” (3).
 ![App Name](../images/inspirational-bot.png)
 
 `_6.` Write down the **App ID** (1) and the **App Secret** (2). Saving the App Secret somewhere is especially important, because you will not be able to view it after closing this dialogue. When done click “**Got it**” (3).
