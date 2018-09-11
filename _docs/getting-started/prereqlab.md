@@ -5,7 +5,7 @@ permalink: /docs/prereqlab/
 
 <a name="top"/>
 
-<h2>Creating a Workspace Space</h2>
+<h4>Creating a Workspace Space</h4>
 
 In this exercise, you will create one Workspace space to use our apps.  This section is mandatory for all other mini-labs.
 
