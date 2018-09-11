@@ -7,39 +7,38 @@ permalink: /docs/deploy-app-lab2/
 
 In this section you will see how to deploy, run and test your new application in IBM Cloud DevOps Environment.
 
-`_1.` Click on “**Deploy**” button.
-![deploy app](../images/lab1/deploy-app.png)
+`_1.` Now you just need to deploy your application. Click on “**Deploy**” button.
+![deploy app](../images/lab2/deploy-app.png)
 
 `_2.` When ready, you should see the green circle again (1) and the running information (2).
 Click on the “**Open the Deployed App**” button (3).
-![Open Deployed App](../images/lab1/open-deployed-app.png)
+![Open Deployed App](../images/lab2/open-deployed-app.png)
 
-`_3.` Great Work! Here you should see the index.html page.
+`_3.` Great Work! Here you see the index.html page (if you completed the lab #1, this index.html is exactly the same of the notification app).
 ![Index.html](../images/lab1/index-html.png)
 
-`_4.` Before we call our method to submit the message to the space, let’s add the app in the “Sales Team” space. Open the Workspace browser tab again, and the “**Sales Team**” space should be open (if not, please open it).
+`_4.` Back to the Work Services Developers page, on the “**Inspirational Listener**” page (1), open the “**Listen to Events**” page (2). Here you should see the “Inspiration Webhook”, click on the “**Enable**” button (3).
+![Enable Event](../images/lab2/enable-event.png)
+
+`_5.` Before we submit the message to test our listener app, let’s add the app in the “Sales Team” space. Open the Workspace browser tab again, and the “Sales Team” space should be open (if not, please open it).
 ![Sales Team Space](../images/lab1/sales-team.png)
 
-`_5.` On “Sales Team” space click on the “**Space Settings**” (you just need to click on the space’s name).
+`_6.` On “Sales Team” space click on the “**Space Settings**” (you just need to click on the space’s name).
 ![Space Settings](../images/lab1/space-settings.png)
 
-`_6.` Click “**Apps**”.
+`_7.` Click “**Apps**”.
 ![Apps](../images/lab1/apps.png)
 
-`_7.` Scroll down and click on your “**Inspirational JS Bot**” (1). Then click on “**Add App**”
-button (2). And **close** the Space settings dialog.
-![Adding App](../images/lab1/add-app.png)
+`_8.` Scroll down and click on your “**Inspirational Listener**” (1).
+![Inspirational Listener](../images/lab2/add-inspirational-listener.png)
 
-`_8.` Let’s test our “inspiration” method to see if our app will send a message to space.  Call the URL:
-```
-https://wws-hellospace-XX.mybluemix.net/inspiration?msg="It is a beautiful day to sell a product!”
-```  
-Where XX is `<your initials>`.  Your result should be a basic string page to inform that the inspiration context was invoked. Let’s see the result on the Workspace Space side.
-![Page Get](../images/lab1/page-invoke.png)
+`_9.` Then click on “**Add App**” button (2). If you completed any other mini-lab, you should have some other inspirational application on the page. To avoid conflict you should remove the other apps first, you just need to open the “Apps Added to Space” and remove the other apps created for other mini-labs. When done, **close** the Space settings dialog.
+![Adding App](../images/lab2/add-app.png)
 
-`_9.` Go back to the Workspace page. On the “Workspace Lab” space check the new message posted by the “Inspirational JS Bot”.
-![Post Message to Space](../images/lab1/inspirational-msg.png)
-The use case here is really simple. However you can extend this code to consume business applications to provide message notifications in a space. Next section you will see how to do it.
+`_10.` Now we are ready to test it. On the “Sales Team” space, submit the message “**@inspiration**” (1). Check the **replied message** from the “Inspirational Listener” application (2).
+![Inspiration Quote](../images/lab2/inspiration-quote-msg.png)
+
+*Congratulations! Your app is almost done. Let’s change the hard coded message, to invoke an external REST service.*
 
 <br/>
 [Back to Top](#top)  
