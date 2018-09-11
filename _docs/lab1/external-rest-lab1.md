@@ -8,7 +8,7 @@ permalink: /docs/external-rest-lab1/
 In this section, you will learn how to improve your code to invoke external Rest Services. Here you will use the public Quote Rest API from TheySaidSo, more information available on <a href="https://theysaidso.com" target="blank">https://theysaidso.com</a>. They have a huge collection of quotes in their database, and you will access the quote of the day for a specific category, based in the user message. Let’s do it!
 
 `_1.` Go back to the IBM Cloud browser tab, and go to the end of the “index.js” file and insert the code of the **getQuote** (1) function:
-```JavaScript
+```
 function getQuote(callback){
 	var quoteURL = "http://quotes.rest/qod.json?category=inspire";
 
