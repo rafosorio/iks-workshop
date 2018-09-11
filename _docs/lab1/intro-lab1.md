@@ -1,5 +1,5 @@
 ---
-title: Notification Application Intro
+title: Notification App Lab
 permalink: /docs/intro-lab1/
 ---
 
