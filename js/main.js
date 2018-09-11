@@ -17,27 +17,27 @@ $(function() {
   });
 
   $("#ph-3").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/helloworld-home/";
+    window.location.href = "/wws-nodejs-lab/docs/intro-lab1/";
     return;
   });
 
   $("#ph-4").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/cssgrid-home/";
+    window.location.href = "/wws-nodejs-lab/docs/intro-lab2/";
     return;
   });
 
   $("#ph-5").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/vimeo-home/";
+    window.location.href = "/wws-nodejs-lab/docs/intro-lab3/";
     return;
   });
 
   $("#ph-6").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/box-home/";
+    window.location.href = "/wws-nodejs-lab/docs/intro-lab4/";
     return;
   });
 
   $("#ph-7").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/businessCard-home/";
+    window.location.href = "/wws-nodejs-lab/docs/intro-lab5/";
     return;
   });
 
