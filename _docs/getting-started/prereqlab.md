@@ -12,6 +12,7 @@ In this exercise, you will create one Workspace space to use our apps.  This sec
 `_1.` In your private/anonymous browser window, open a new tab.
 
 `_2.` Open the <a href="https://login.workspace.ibm.com/">IBM Watson Workspace login page</a>.
+![login workspace](../images/login-workspace.png)
 
 `_3.` Login with your **IBMid** and **password**.
 
