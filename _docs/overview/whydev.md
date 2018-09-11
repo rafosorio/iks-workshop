@@ -1,5 +1,5 @@
 ---
-title: Why build with Watson Work Services?
+title: Why build with WWS?
 permalink: /docs/whydev/
 ---
 
