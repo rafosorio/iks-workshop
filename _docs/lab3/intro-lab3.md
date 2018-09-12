@@ -1,5 +1,5 @@
 ---
-title: Listener App Lab
+title: Annotation App Lab
 permalink: /docs/intro-lab3/
 ---
 
