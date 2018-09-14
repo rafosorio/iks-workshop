@@ -7,96 +7,73 @@ permalink: /docs/edit-app-lab3/
 
 In this section you will see how to edit an application using Eclipse Orion Web IDE on IBM Cloud.
 
-`_1.` Back to the IBM Cloud browser, you should be on the wws-webhook-XX Toolchain page (if you are not, on the IBM Cloud Dashboard page, open the menu and select DevOps and click on the wws-webhook-XX app).
-![wws-webhook-XX](../images/lab2/wws-webhook-XX.png)
+`_1.` Back to the IBM Cloud browser, you should be on the wws-sentiment-XX Toolchain page (if you are not, on the IBM Cloud Dashboard page, open the menu and select DevOps and click on the wws-sentiment-XX app).
+![wws-sentiment-XX](../images/lab3/wws-sentiment-XX.png)
 
 `_2.` Here, you will use the Eclipse Orion Web IDE to modify source code. When you edit in the Web IDE, your changes are saved to your cloud workspace. Let’s explore our app code. Open the “**Eclipse Orion Web IDE**”.
-![Eclipse Orion](../images/lab2/eclipse-orion.png)
+![Eclipse Orion](../images/lab3/eclipse-orion.png)
 
 `_3.` Here you should see your application. It is a typical Node.JS application with manifest.yml, package.json, index.js and public folder. Open the “**manifest.yml**” file to edit it.
-![Opening Manifest](../images/lab2/manifest-yml.png)
+![Opening Manifest](../images/lab3/manifest-yml.png)
 
 `_4.` Update the “**name**” and “**host**” from manifest.yml to reflect your app name with your initials.
-![Updating Manifest](../images/lab2/update-manifest.png)
+![Updating Manifest](../images/lab3/update-manifest.png)
 
 `_5.` And open the “**index.js**” file.
-![Opening Index.js](../images/lab2/indexjs.png)
+![Opening Index.js](../images/lab3/indexjs.png)
 
 `_6.` On the index.js let’s start changing the “**APP_ID**” (1) with the App Id value of previous step,  the “**APP_SECRET**” (2) with the App Secret value of previous step and the “**SPACE_ID**” (3) with the Sales Team space ID. Change the **APP_WEBHOOK_SECRET** (4) with the “Inspiration Webhook” Secret (see previous section).  
-![Changing Index.js](../images/lab2/changing-index.png)
+![Changing Index.js](../images/lab3/changing-index.png)
 
-`_7.` Let’s analyze the code of the app. This app is exactly the same app of the lab #1, please see the Notification lab for more details about the app skeleton). The only big difference here is: you need a callback function to manage the events.  So far, the callback function is empty (see the picture below).
-![Changing Index.js code](../images/lab2/indexjs-code.png)
+`_7.` Let’s analyze the code of the app. This app is very similar of App of the mini-lab #2. The difference here is: this app will echo the user message when the user type “@echobot + message” (1). Next step you will include more logic to analyze sentiment analyzes from Watson.  So far, the “**message-annotation-added**” code is empty (2).
+![Changing Index.js code](../images/lab3/indexjs-code.png)
 
-`_8.` Let’s update the app.post function. Update the callback function with the code below:
+`_8.` Update the “message-annotation-added” “if” (between the curly brackets) with the code available below:
 ```
-// Handle Watson Work Webhook verification challenge
-    if (req.body.type === 'verification') {
-        console.log('Got Webhook verification challenge ' + req.body);
+console.log("Annotation Message received.");
 
-        var bodyToSend = {
-            response: req.body.challenge
-        };
+var annotationType = req.body.annotationType;
+var annotationPayload = JSON.parse(req.body.annotationPayload);
 
-        var hashToSend = crypto.createHmac('sha256', APP_WEBHOOK_SECRET).update(JSON.stringify(bodyToSend)).digest('hex');
+if (annotationType === "message-nlp-docSentiment") {
+    console.log("docSentiment received");
+    console.log(req.body.annotationPayload);
+    var docSentiment = annotationPayload.docSentiment;
+    var msgText = "";
+    var abortcode = true;
+    if (docSentiment.type === "negative" && docSentiment.score < -0.60) {
+        msgText = "It appears you are being negative (" + docSentiment.score + ")";
+        abortcode = false;
+    } else if (docSentiment.type === "positive" && docSentiment.score > 0.60) {
+        msgText = "It appears you are being positive (" + docSentiment.score + ")";
+        abortcode = false;
+    }
 
-        res.set('X-OUTBOUND-TOKEN', hashToSend);
-        res.send(bodyToSend);
+    // Don't do anything if we don't have positive or negative sentiment
+    if(abortcode){
         return;
     }
 
-    // Ignore all our own messages
-    if (req.body.userId === APP_ID) {
-        console.log("Message from myself : abort");
-        res.status(200).end();
+    // Post it back to the space
+    // Let's try to authenticate
+    getJWTToken(APP_ID, APP_SECRET, function(jwt) {
+    // And post it back
+      postMessageToSpace(spaceId, jwt, msgText, function(success) {
         return;
+      });
+    });
+
+    } else {
+      // Skip analysis we are not interested in
+      return;
     }
 
-    // Ignore empty messages
-    if (req.body.content === "") {
-        console.log("Empty message : abort");
-        res.status(200).end();
-        return;
-    }
-
-    // Get the event type
-    var eventType = req.body.type;
-
-	// Get the spaceId
-    var spaceId = req.body.spaceId;
-
-    // Acknowledge we received and processed notification to avoid getting
-    // sent the same event again
-    res.status(200).end();
-
-    // Act only on the events we need
-    if (eventType === "message-annotation-added") {
-        console.log("Annotation Message received.");
-        return;
-    }
-    if (eventType === "message-created") {
-        console.log("Message Created received.");
-		if (req.body.content.substring(0, 12) === "@inspiration") {
-			getJWTToken(APP_ID, APP_SECRET, function(jwt) {
-				console.log("JWT Token :", jwt);
-				var msg = "It is a beautiful day to sell a product";
-				// And post it back
-				postMessageToSpace(spaceId, jwt, msg, function(success) {
-					return;
-				})
-			})
-		}
-        return;
-    }
-
-    // We don't do anything else, so return.
-    console.log("INFO: Skipping unwanted eventType: " + eventType);
-    return;
+return;
 ```  
-![Changing app.post](../images/lab2/app-post.png)
-The first part handles the webhook verification call. The second part ignores all messages from this app and all empty messages.
+![Changing app.post](../images/lab3/msg-annotation.png)
+The first part verifies the annotationType is a “sentiment”. If true the code will send a specific message to the space indicating if the sentiment is negative or positive along with the sentiment Score.
 <br/>
-Next it verifies the type of the event.  Right now this app is only receiving “message-created” events, but it is ready for others too. And at the end, it verifies if the message starts with “@inspiration”, then replies the inspiration message to space.
+Here the message/scenario is simple, but you can use the sentiment annotation to escalate a customer support based on user’s message analysis
 
 
 <br/>

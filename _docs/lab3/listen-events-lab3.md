@@ -5,24 +5,19 @@ permalink: /docs/listen-events-lab3/
 
 <a name="top"/>
 
-In this section you will see how to listen to events. Here you need to configure your app to listens “message-created” event, let’s see how to do it!
+In this section you will see how to listen to events. Here you need to configure your app to listen “message-annotation-added” event. When a new message is added in a space, Watson Workspace invoke multiple Watson services to do a Cognitive Analyses of this message. Here you don’t need to do anything (no API call is necessary). Out of the box, Workspace invoke Watson services, and this analyze is added as an “annotation of the message”. As a developer, you are able to define if you want to receive this cognitive analysis (annotations). Let’s see how to do it!
 
 `_1.` On the App page, click on “**Listen to Events**” page.
-![listen events](../images/lab2/listen-events.png)
+![listen events](../images/lab3/listen-events.png)
 
 `_2.` Click “**Add an outbound webhook**”.
-![Add Outbound Webhook](../images/lab2/add-outbound-event.png)
+![Add Outbound Webhook](../images/lab3/add-outbound-webhook.png)
 
-`_3.` On the “Create new event listener” dialog, enter “**Inspiration Webhook**” (1) as the Webhook Name, enter “**wws-webhook-**`<yourinitials>`**.mybluemix.net/callback**” (2), and select the “**message-created**” event (3)
-<p>
-<span class="label label-warning">Note</span>
-here you are able to select the list of events that you want to listen to.  
-</p>
-When done, click “**Save**” (4).
-![New Event Listener](../images/lab2/new-event-listener.png)
+`_3.` On the “Create new event listener” dialog, enter “**Sentiment Webhook**” (1) as the Webhook Name, enter “**wws-sentiment-**`<yourinitials>`**.mybluemix.net/callback**” (2), and select the “**message-annotation-added**” event (3). When done, click “**Save**” (4).
+![New Event Listener](../images/lab3/new-event-listener.png)
 
 `_4.` Great job! Your webhook is ready. You need to copy the “**Webhook Secret**” (1) and save it somewhere safe. Once you dismiss this confirmation the Webhook Secret will no longer be available. Then, click “**Close**”.
-![Webhook Secret](../images/lab2/webhook-secret.png)
+![Webhook Secret](../images/lab3/webhook-secret.png)
 
 <br/>
 [Back to Top](#top)  

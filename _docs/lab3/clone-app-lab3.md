@@ -21,16 +21,16 @@ permalink: /docs/clone-app-lab3/
 `_6.` Here you are able create a toolchain from a Toolchain Template. This decision depends on the type of project. In our case, we will use the “**Develop a Cloud Foundry app**” template.
 ![Develop Cloud Foundry](../images/lab1/dev-cloud-foundry.png)
 
-`_7.` On the creation page, review the diagram of the toolchain that you are about to create. The diagram shows each tool integration in its lifecycle phase in the toolchain. On the Toolchain Name, enter "**wws-webhook-**`<your initials>`".
-![Toolchain Name](../images/lab2/toolchain-name.png)
+`_7.` On the creation page, review the diagram of the toolchain that you are about to create. The diagram shows each tool integration in its lifecycle phase in the toolchain. On the Toolchain Name, enter "**wws-sentiment-**`<your initials>`".
+![Toolchain Name](../images/lab3/toolchain-name.png)
 
 `_8.` On the “Git Repos and Issue Tracking” section, select the “**Clone**” (1) as “**Repository type**”. On the “**Source repository URL**” enter (2):
 ```
-https://github.com/rafosorio/wws-webhook-ro
+https://github.com/rafosorio/wws-sentiment-ro
 ```
 Keep the default value for “**Repository Name**” and **disable “Enable Issues”** (3) and **disable “Track deployment of code changes”** (4).  And click “**Create**” (5).
 
-![Git Repos](../images/lab2/git-repos.png)
+![Git Repos](../images/lab3/git-repos.png)
 
 <p>
 <span class="label label-warning">Take Note</span>
