@@ -43,11 +43,12 @@
 - title: Lab 4 - Action Fulfillment App
   docs:
   - intro-lab4
-  - clone-app-lab4
+  - train-watson-lab4
   - register-app-lab4
+  - test-app-lab4
+  - clone-app-lab4
+  - listen-events-lab4
   - edit-app-lab4
-  - deploy-app-lab4
-  - external-rest-lab4
 
 - title: Lab 5 - Space Templates
   docs:
