@@ -21,13 +21,24 @@ Now, let’s see how to register an Application in the Watson Work Services Deve
 `_4.` On “Your Apps” page, you should see your apps here (if you have one). Let’s create a new app.  Click on “**Create new app**” button.
 ![Creating WWS App](../images/lab1/create-new-app.png)
 
-`_5.` On the “**App name**” enter **“Inspirational Sentiment +”** + `<your initials>` (1). On the “**Short description**”, you are welcome to define a cool description for your first app (2). When completed, click “**Create**” (3).
-![App Name](../images/lab3/inspirational-sentiment.png)
+`_5.` On the “**App name**” enter **“Inspirational Action +”** + `<your initials>` (1). On the “**Short description**”, you are welcome to define a cool description for your first app (2). When completed, click “**Create**” (3).
+![App Name](../images/lab4/inspirational-action.png)
 
 `_6.` Write down the **App ID** (1) and the **App Secret** (2). Saving the App Secret somewhere is especially important, because you will not be able to view it after closing this dialogue. When done click “**Got it**” (3).
 ![App Secret](../images/lab1/app-secret.png)
 
-*Nice Job! Now you have your app registered in Watson Work Services. But now you need to listen to events. You will do it in the next section.*
+*Nice Job! Now you have your app registered in Watson Work Services. But now let’s see how to integrate the Watson Assistant workspace.*
+
+`_7.` Here is the most important part: how to enable your application to use the Watson Conversation flow to understand your Conversation. It is really simple: click “**Make it Cognitive**”.
+![Make It Cognitive](../images/lab4/make-it-cognitive.png)
+
+`_8.` On the “Make it Cognitive” page. Enter the “**Watson Conversation ID**” (1), enter the “**Watson Conversation Username**” (2) and “**Watson Conversation Password**” (3). When completed, click “**Connect**” (4)
+![Connect Cognitive](../images/lab4/connect-cognitive.png)
+
+`_9.` You should receive a “**Success**” message. Click “**Close**”.
+![Connect Cognitive](../images/lab4/success.png)
+
+*Great! Next section, you will test the Watson Assistant integration.*
 
 <br/>
 [Back to Top](#top)  
