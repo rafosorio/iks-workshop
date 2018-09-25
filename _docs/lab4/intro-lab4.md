@@ -1,5 +1,5 @@
 ---
-title: Annotation App Lab
+title: Action Fulfillment App Lab
 permalink: /docs/intro-lab4/
 ---
 
