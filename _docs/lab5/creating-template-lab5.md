@@ -1,5 +1,5 @@
 ---
-title: Creating a Space Template
+title: Creating a Template
 permalink: /docs/creating-template-lab5/
 ---
 
