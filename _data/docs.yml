@@ -53,8 +53,11 @@
 - title: Lab 5 - Space Templates
   docs:
   - intro-lab5
-  - businessCard-home
-  - businessCard-deploy
+  - creating-template-lab5
+  - creating-space-lab5
+  - explore-space-lab5
+  - share-template-lab5
+  - manage-template-lab5
 
 - title: More Info
   docs:
