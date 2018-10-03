@@ -7,7 +7,7 @@ permalink: /docs/creating-template-lab5/
 
 It is really simple to create a space template using GraphQL.  In this section you will see how to create a new template using GraphQL Explorer tool (no development skill is necessary). The first step to create a template is to have a list of the required apps ID. For this lab, you don’t need to worry about the Apps ID of the Expert Finder and Inspirational Quote, this information is available for you in the table below.
 
-<table width=60%>
+<table>
 <th>App</th>
 <th>App ID</th>
 <tr>
