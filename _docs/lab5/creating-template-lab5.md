@@ -93,7 +93,7 @@ mutation {
 `_6.` The rest of the code is just declaring the subfields of the template to be displayed on the data result of the query.
 ![GraphQL Part 4](../images/lab5/graphql-part4.png)
 
-`_7.` Great, you are ready to execute the GraphQL, click on “**xecute Query**” button (play icon) to create your template.
+`_7.` Great, you are ready to execute the GraphQL, click on “**Execute Query**” button (play icon) to create your template.
 ![Execute Query](../images/lab5/execute-query.png)
 
 `_8.` You should get a spaceTemplate id if it ran successfully.
