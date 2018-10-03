@@ -99,7 +99,7 @@ mutation {
 `_8.` You should get a spaceTemplate id if it ran successfully.
 ![Success](../images/lab5/template-success.png)
 
-*Congratulations, your space template is ready. Next section you will see how to create a Space using this template.
+*Congratulations, your space template is ready. Next section you will see how to create a Space using this template.*
 
 <br/>
 [Back to Top](#top)  
