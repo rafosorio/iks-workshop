@@ -71,11 +71,11 @@ mutation {
             {id: "3ce2a632-8d59-4ea5-a8dc-279a3a062adc"}
           ]
       }})
-	{
-    spaceTemplate {
-      id
-    }
-  }
+	     {
+          spaceTemplate {
+              id
+            }
+      }
 }
 ```
 ![GraphQL Create a Template](../images/lab5/graphql-create-template.png)
