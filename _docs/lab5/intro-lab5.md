@@ -14,14 +14,21 @@ Anyone can use our <a href="https://github.com/watsonwork/watsonwork-developer-d
 <p/>
 
 This lab will drive you to create a Watson Workspace Space Template to enable Sellers to progress and close sales opportunities. In a real scenario, this template will have app to integrate to a CRM solution, other to integrate to Sales Asset Repository, etc. But because the goal of this lab is to explain how easy is to create a template, we will focus on the template creation, more than in the pre-defined apps of the template. Of course, we have some pre-defined apps,  the Expert Finder App to find sales specialist to help to close the deal and our famous Inspirational Quote App, created in the previous labs (if you didn’t complete the previous lab, no problem, here you will use a pre-created app), this app will send motivational message to the sales team. At the end of the lab, you will change the inspirational message to see how to leverage Space’s information on your app to do things (your app will automatically submit different type of motivational messages based on the workflow stage).
-Our Opportunity Room has a timeline, that tracks the state of the deal. The timeline is:<p/>
+Our Opportunity Room has a timeline, that tracks the state of the deal. The timeline is:
+
 •	Prospecting
+
 •	Qualifying
+
 •	Needs Analysis
+
 •	Proposal
+
 •	Negotiation
+
 •	Won/Closed
-<p/>
+
+
 
 And it indicates where the opportunity is, helps folks who are trying to gauge near term and long-term pipeline of sales. Also, the team wants to make sure the deal stays on track, and if it gets derailed, they want to let everyone know, so they keep a Deal Temperature - when it goes at risk, they need to step it up.
 <p/>
