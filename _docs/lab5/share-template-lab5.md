@@ -1,41 +1,45 @@
 ---
-title: Exploring your Space
-permalink: /docs/explore-space-lab5/
+title: Share a Template
+permalink: /docs/share-template-lab5/
 ---
 
 <a name="top"/>
 
+In this section you will learn how to share your template with anyone using the share URL for your template.  To share your template, you need to use the GraphQL Explorer again. Let’s do it!
 
-In this section you will see the key features of the space created from a template. Let’s see it!
+`_1.` Open a browser window. Because the Template API is still Experimental, you need to use the Explorer URL below to use the Experimental APIs.
+```
+https://developer.watsonwork.ibm.com/tools/graphql?apiType=EXPERIMENTAL,PUBLIC,BETA
+```
 
-`_1.` On the “Tutorial Opportunity” space, click the “Show content for this space” button to see the Space content.
-![Show Space Content](../images/lab5/show-content.png)
+`_2.` Below is the GraphQL to share our template. **Copy and Paste** the code below in the GraphQL API Explorer. Please **edit** the code to include your Template id .
+```
+mutation {
+  shareSpaceTemplate(input: {id: "34c74????????", target: OPEN}) {
+    successful
+  }
+}
 
-`_2.` On the Details view, you can see the embedded Workflow/Timeline for this type of space with all the stages of the flow (1). You also can see the space properties defined in the space creation: Opportunity ID, Contact count and Deal Temperature (2).
-![Space Content](../images/lab5/space-content.png)
+```
+![GraphQL Share a Template](../images/lab5/share-template-graphql.png)
 
-`_3.` Let’s see how to change a Space’s property. Click on the “**Space settings**” button (the gear near the space title).
-![Space Settings](../images/lab5/space-settings.png)
 
-`_4.` Now, open the **Properties** view.
-![Show Properties](../images/lab5/show-properties.png)
+`_3.` Before executing the GraphQL, let’s analyze it. The input has two required arguments, id and target. The id is the id of the template to be shared. The target denotes who the template is to be shared with. The only target currently available is OPEN, which means the template, once shared, is available to anyone who knows the template id and has permission to access openly shared templates.  In order to share a template you should be the creator of the template and all required apps in the template should already be shared (see <a href="https://github.com/watsonwork/watsonwork-developer-docs/blob/master/guides/guides/V1_ShareAnApp.md">Share an app</a> for additional information).
 
-`_5.` Great, here you are able to change all the properties of the space (1). You are welcome to change. When completed, please **close** the Space settings dialog (2).
-![Properties View](../images/lab5/properties-view.png)
+`_4.` Great, you are ready to execute the GraphQL, click on “**Execute Query**” button (play icon) to create your template.
+![GraphQL Execute](../images/lab5/graphql-share-execute.png)
 
-`_6.` Back to the Space Details view, let’s start a simple conversation in our space, enter “**Team, I need some help to close a new deal**” (1) and click “**Send**” (2)
-![Hello Message](../images/lab5/hello-message.png)
+`_5.` You should get a “*successful:true*” if it ran successfully.
+![Share successful](../images/lab5/share-success.png)
 
-`_7.` Now, let’s see how to move our workflow to the next stage. It is really simple. Just click on the next stage: **Qualifying** (1).  You will see a green dot on the new stage and you will see in the space Transcript the information that “**You changed the status to Qualifying**”.
-![Changing Status](../images/lab5/changing-status.png)
+`_6.` Great!  Your template is ready to be shared.  Once shared, templates can be accessed in Watson Workspace via a share URL. To view a shared template go to:
+```
+https://workspace.ibm.com/space/template/<templateId>
+```
+Let’s try it! Access the URL above using your template Id. You should see the page below:
+![Share Template URL](../images/lab5/share-template-url.png)
 
-`_8.` Right now, none of our app is interacting when we change the Space status or when we change the Space property. However, it is possible to create an app, that change a CRM Sales Cycle attribute, when you change the Space status on Workflow. Next lab you will see how to change the Inspirational Quote app to send different type of message based on the Space status change. Let’s check the pre-defined apps. Enter the follow message on the space “**@inspiration**” to check if the Inspirational Quote app is available on the space.
-![Checking Inspiration](../images/lab5/check-inspiration.png)
-
-`_9.` You should see a motivational message from the Inspirational Quote.  You are welcome to test the Connections Expert Finder app (you just need to post a message looking for a Workspace Expert, and Watson will help you to find an expert).
-![Review Apps](../images/lab5/inspirational-quote.png)
-
-*Congratulations! You explored your space created from a template, and you learned how to change Space Properties and Status. Now it is really simple for any Seller to create a space to close a deal! Next step, you will see how to share your template with other users, using a Share URL.*
+*Great Job! Now you have a public page, that any Workspace user is able to create a space from your template. You are welcome to share this URL with your colleagues.  In the next section, we will show how easy is a for a Workspace Team admin, to add your template in the Team catalog, to enable all Plus user to see your template in the “Add Space” screen. If you don’t have a Plus Admin user, you are welcome to read the next section to understand the Admin process to create a Team Template Catalog. However, you will not be able to follow the lab steps without a Plus Admin user.*
 
 <br/>
 [Back to Top](#top)  
