@@ -4,9 +4,9 @@ permalink: /docs/intro-lab5/
 ---
 
 Sometimes conversations, even though critical for work, can get unwieldy.  Here's where space templates can make all the difference.  Think about a workflow that you do on a regular basis - maybe its to resolve customer service incidents, or to drive a sales lead from opportunity to signed deal.   Now imagine applying a template, to your space activity, giving you a built-in timeline to keep everyone aligned and focused on the final outcome, apps to facilitate the work, and custom properties to organize and categorize your efforts.
-<p/>
+
 Now, you no longer have just a way to communicate - you truly have a workspace, optimized to make you and your team more efficient and effective.
-</p>
+
 To learn more about templates watch this short video.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-rxA53tOgWU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <p/>
