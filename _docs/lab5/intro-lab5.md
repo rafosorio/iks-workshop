@@ -1,5 +1,5 @@
 ---
-title: Creating a Space Template Lab
+title: Space Templates Lab
 permalink: /docs/intro-lab5/
 ---
 
