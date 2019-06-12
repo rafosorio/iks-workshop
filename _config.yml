@@ -1,13 +1,13 @@
 # Site settings
-title: Workspace NodeJS Lab
+title: IBM Kubernetes Services Workshop
 email: rafosorio@gmail.com
 description: >
-  Workspace NodeJS Lab.
+  IKS Workshop.
 
-baseurl: "/wws-nodejs-lab" # the subpath of your site, e.g. /blog/
-url: https://github.com/rafosorio/wws-nodejs-lab # the base hostname & protocol for your site
-git_address: https://github.com/rafosorio/wws-nodejs-lab
-git_edit_address: https://github.com/rafosorio/wws-nodejs-lab/blob/gh-pages
+baseurl: "/iks-workshop" # the subpath of your site, e.g. /blog/
+url: https://github.com/rafosorio/iks-workshop # the base hostname & protocol for your site
+git_address: https://github.com/rafosorio/iks-workshop
+git_edit_address: https://github.com/rafosorio/iks-workshop/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
