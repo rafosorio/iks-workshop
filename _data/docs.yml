@@ -1,4 +1,4 @@
-- title: Overview
+- title: Introduction
   docs:
   - workspace
   - apps
@@ -11,7 +11,7 @@
   - jumpstart
   - prereqlab
 
-- title: Lab 1 - Notification App
+- title: Experience 1 - Kubernetes Cluster
   docs:
   - intro-lab1
   - clone-app-lab1
@@ -20,7 +20,7 @@
   - deploy-app-lab1
   - external-rest-lab1
 
-- title: Lab 2 - Listener App
+- title: Experience 2 - Kubernetes Toolchain
   docs:
   - intro-lab2
   - clone-app-lab2
@@ -30,27 +30,7 @@
   - deploy-app-lab2
   - external-rest-lab2
 
-- title: Lab 3 - Annotation App
-  docs:
-  - intro-lab3
-  - clone-app-lab3
-  - register-app-lab3
-  - listen-events-lab3
-  - edit-app-lab3
-  - deploy-app-lab3
-  - external-rest-lab3
-
-- title: Lab 4 - Action Fulfillment App
-  docs:
-  - intro-lab4
-  - train-watson-lab4
-  - register-app-lab4
-  - test-app-lab4
-  - clone-app-lab4
-  - listen-events-lab4
-  - edit-app-lab4
-
-- title: Lab 5 - Space Templates
+- title: Kubernetes Solutioning
   docs:
   - intro-lab5
   - creating-template-lab5
