@@ -33,7 +33,6 @@ Highly available masters, by spreading masters across zones, thereby protecting 
 <li>
 The ability to bind to advanced services like blockchain and Watson
 </li>
-</li>
 <li>
 Image security compliance with Vulnerability Advisor
 </li>
