@@ -6,9 +6,9 @@
 
 - title: What?
   docs:
-  - usecase2
-  - micro-intro2
-  - micro-details2
+  - container
+  - kubernetes
+  - managedk8
 
 - title: Where?
   docs:
