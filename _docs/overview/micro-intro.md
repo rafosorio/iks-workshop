@@ -14,7 +14,7 @@ permalink: /docs/micro-intro/
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/Pvbr5d2mIZs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<h2>Microservices benefits</h2>
+<h2>Microservices Business benefits</h2>
 <p>Businesses that adopt microservices enjoy many benefits:</p>
 
 <ul>
@@ -36,4 +36,5 @@ permalink: /docs/micro-intro/
 </ul>
 
 <h2>What's the difference between APIs, Services and Microservices?</h2>
+<p>People often come to very reasonable, but unfortunately incorrect conclusions about the relationship between APIs and microservices.  In the video below you will understand more about these concepts.</p>
 <iframe width="800" height="450" src="https://www.youtube.com/embed/qGFRbOq4fmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
