@@ -1,6 +1,6 @@
 ---
 title: Accelerate Cloud Native Development
-permalink: /docs/workspace/
+permalink: /docs/usecase/
 ---
 
 Requests to enhance current applications, create new user experiences and develop new applications are increasing. To keep up with rising demand, your application development team needs a way to accelerate the creation, deployment and scaling of applications.
