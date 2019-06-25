@@ -1,17 +1,23 @@
-- title: Why Containers & Microservices
+- title: Why?
   docs:
   - usecase
   - micro-intro
   - micro-details
 
-- title: Getting Started
+- title: What?
+  docs:
+  - usecase
+  - micro-intro
+  - micro-details
+
+- title: Where?
   docs:
   - intro
   - labsetup
   - jumpstart
   - prereqlab
 
-- title: Experience 1 - Kubernetes Cluster
+- title: How 1 - Kubernetes Cluster
   docs:
   - intro-lab1
   - clone-app-lab1
@@ -20,7 +26,7 @@
   - deploy-app-lab1
   - external-rest-lab1
 
-- title: Experience 2 - Kubernetes Toolchain
+- title: How 2 - Kubernetes Toolchain
   docs:
   - intro-lab2
   - clone-app-lab2
