@@ -1,8 +1,8 @@
-- title: Introduction
+- title: Why invest in Containers & Microservices
   docs:
   - usecase
   - micro-intro
-  - whydev
+  - micro-details
 
 - title: Getting Started
   docs:
