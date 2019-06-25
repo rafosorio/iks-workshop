@@ -33,5 +33,7 @@ permalink: /docs/micro-intro/
 <li><b>Scalability</b>
 <p>Microservices are easier to scale than monolithic apps. Teams can more efficiently scale applications by scaling individual services according to their criticality to the overall app, throughput, memory, and CPU load.</p>
 </li>
-
 </ul>
+
+<h2>What's the difference between APIs, Services and Microservices?</h2>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/qGFRbOq4fmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
