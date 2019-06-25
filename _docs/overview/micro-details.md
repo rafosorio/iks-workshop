@@ -43,7 +43,7 @@ Before you embrace the microservices architectural model, weigh the pros and con
 </ul>
 
 
-p><b>Cons</b></p>
+<p><b>Cons</b></p>
 <ul>
 <li>
 <b>May require organizational change</b>: Small teams independently create, develop, and maintain each microservice. Teams must act independently and take ownership of the microservice over its entire lifecycle. It may take time to transition teams to this new way of operating and thinking.
