@@ -7,32 +7,32 @@ $(function() {
 
   //DP: Trying something
   $("#ph-1").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/workspace/";
+    window.location.href = "/iks-workshop/docs/usecase/";
     return;
   });
 
   $("#ph-2").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/intro/";
+    window.location.href = "/iks-workshop/docs/container/";
     return;
   });
 
   $("#ph-3").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/intro-lab1/";
+    window.location.href = "/iks-workshop/docs/account/";
     return;
   });
 
   $("#ph-4").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/intro-lab2/";
+    window.location.href = "/iks-workshop/docs/intro-lab1/";
     return;
   });
 
   $("#ph-5").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/intro-lab3/";
+    window.location.href = "/iks-workshop/docs/intro-lab2/";
     return;
   });
 
   $("#ph-6").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/intro-lab4/";
+    window.location.href = "/iks-workshop/docs/intro-lab4/";
     return;
   });
 
@@ -42,7 +42,7 @@ $(function() {
   });
 
   $("#ph-8").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/more-home/";
+    window.location.href = "/iks-workshop/docs/more-home/";
     return;
   });
 
