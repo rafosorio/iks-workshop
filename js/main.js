@@ -37,7 +37,7 @@ $(function() {
   });
 
   $("#ph-7").click(function() {
-    window.location.href = "/wws-nodejs-lab/docs/intro-lab5/";
+    window.location.href = "/iks-workshop/docs/intro-lab5/";
     return;
   });
 
