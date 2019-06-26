@@ -12,10 +12,9 @@
 
 - title: Where?
   docs:
-  - intro
-  - labsetup
-  - jumpstart
-  - prereqlab
+  - account
+  - cli
+  - sourcecode
 
 - title: How 1 - Kubernetes Cluster
   docs:
