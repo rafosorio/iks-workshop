@@ -1,6 +1,6 @@
 ---
-title: Invoking External Rest Services
-permalink: /docs/external-rest-lab1/
+title: Summary
+permalink: /docs/summary-how1/
 ---
 
 <a name="top"/>

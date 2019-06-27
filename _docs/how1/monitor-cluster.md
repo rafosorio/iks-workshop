@@ -1,6 +1,6 @@
 ---
-title: Deploying and Running
-permalink: /docs/deploy-app-lab1/
+title: Monitoring your Cluster
+permalink: /docs/monitor-cluster/
 ---
 
 <a name="top"/>

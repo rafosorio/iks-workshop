@@ -1,6 +1,6 @@
 ---
-title: Cloning an Application
-permalink: /docs/clone-app-lab1/
+title: Using IKS Service
+permalink: /docs/iks-service/
 ---
 
 <a name="top"/>

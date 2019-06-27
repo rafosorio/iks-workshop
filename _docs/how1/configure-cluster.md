@@ -1,6 +1,6 @@
 ---
-title: Editing your App
-permalink: /docs/edit-app-lab1/
+title: Deploying and Configuring your Cluster
+permalink: /docs/configure-cluster/
 ---
 
 <a name="top"/>
