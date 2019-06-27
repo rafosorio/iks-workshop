@@ -12,4 +12,4 @@ Before you begin, you need to have an IBM Cloud account. If you don't have, plea
 <li><b>Lite</b>: You can create only a free Kubernetes cluster with 1 worker node to explore the capabilities. Later you will need to upgrade your account to a billable account if you want further capabilities.</li>
 </ul>
 
-You are able to complete the labs of the "How" section, using a Lite account. If you want to create a new Lite account, please follow the steps of the <a href="https://cloud.ibm.com/registration">IBM Cloud Registration page</a>.
+You are able to complete the labs of the "How" section, using a Lite account. If you want to create a new Lite account, please follow the steps of the <a href="https://cloud.ibm.com/registration" target="blank">IBM Cloud Registration page</a>.
