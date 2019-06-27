@@ -2,17 +2,6 @@
 title: IBM Cloud CLI
 permalink: /docs/cli/
 ---
----
-
-copyright:
-  years: 2015, 2019
-lastupdated: "2019-06-19"
-
-keywords: cli, IBM Cloud Developer Tools CLI, ibmcloud cli, download cli, ibmcloud dev, cloud cli, dev plugin, dev plug-in, cloud command line, developer tools, dev tools, install cloud cli, getting started cli
-
-subcollection: cloud-cli
-
----
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -35,22 +24,14 @@ The installation command in this tutorial installs the latest stand-alone {{site
 * `Helm`
 * `kubectl`
 * `curl`
-* {{site.data.keyword.dev_cli_notm}} plug-in
-* {{site.data.keyword.IBM_notm}} {{site.data.keyword.openwhisk_short}} plug-in
-* {{site.data.keyword.cos_full_notm}} plug-in
-* {{site.data.keyword.registrylong_notm}} plug-in
-* {{site.data.keyword.containerlong_notm}} plug-in
+* IBM Cloud Developer Tools plug-in
+* IBM Cloud Functions plug-in
+* IBM Cloud Object Storage plug-in
+* IBM Cloud Container Registry plug-in
+* IBM Cloud Kubernetes Service plug-in
 
-## Before you begin
-{: #idt-prereq}
-
-You need an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") and the following system requirements:
-
-* If you are running Windows&trade;, some functions are not supported unless you are running Windows&trade; 10 Pro.
-* You must use the stable channel for Docker with a minimum version of 1.13.1.
 
 ## Step 1. Run the installation command
-{: #step1-install-idt}
 
 The latest version of the {{site.data.keyword.cloud_notm}} CLI is installed when you run the command.
 
