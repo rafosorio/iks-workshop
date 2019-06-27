@@ -10,5 +10,8 @@ Repo <b>kube101</b> contains the step by step instructions to run the workshop.
 
 ```
 $ git clone https://github.com/IBM/guestbook.git
+```
+
+```
 $ git clone https://github.com/IBM/kube101.git
 ```
