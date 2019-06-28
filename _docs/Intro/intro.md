@@ -11,6 +11,10 @@ This **Experience** will help you to explore IBM Cloud Kubernetes Service. As Ku
 
 This material has 5 parts:
 
+<br/>
+![overview](../images/intro/lab-overview.png)
+<br/>
+
 <ul>
 <li><b>Why</b>: In the why part, you will learn why you should invest in modernize your apps or create new apps using microservices and containers. Here you will learn the usecase and business benefits behing Kubernetes.</li>
 <li><b>What</b>: In this part, you will learn what are the tecnhologies and concepts behind Kubernetes. Here you will understand what is Containers, Kubernetes and a Managed Kubernete Service</li>
@@ -19,8 +23,6 @@ This material has 5 parts:
 <li><b>Extras</b>: Last but not least, you will be able to explore some extra materials, with tips how to design your Kubernetes environment, for example: Security, Resilience, etc.</li>
 </ul>
 
-<br/>
-![overview](../images/intro/lab-overview.png)
-<br/>
 
-*Now, it is time to start! We are happy that you decided to invest your time to learn about IBM Kubernetes Service. Enjoy your journey!*
+
+**Now, it is time to start! We are happy that you decided to invest your time to learn about IBM Kubernetes Service. Enjoy your journey!**
