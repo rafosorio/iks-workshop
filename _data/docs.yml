@@ -26,7 +26,6 @@
   - iks-service
   - configure-cluster
   - monitor-cluster
-  - summary-how1
 
 - title: How 2 - Kubernetes Toolchain
   docs:
