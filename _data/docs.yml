@@ -25,6 +25,7 @@
   - intro-how1
   - iks-service
   - configure-cluster
+  - app-toolchain
   - monitor-cluster
 
 - title: How 2 - Kubernetes Toolchain
