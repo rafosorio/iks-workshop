@@ -22,7 +22,10 @@ In this section, you set up the cluster's initial configuration and deploy an ap
 ![mycluster](../images/how1/mycluster-waiting.png)
 <br/>
 
-`_4.` When the status is "**Ready**" you can deploy the application to the cluster.
+`_4.` When the status is "**Normal**" you can start to use your cluster to deploy your applications (not part of this lab).
+<br/>
+![mycluster-done](../images/how1/mycluster-completed.png)
+<br/>
 
 
 
