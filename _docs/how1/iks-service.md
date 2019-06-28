@@ -9,12 +9,12 @@ When you have an IBM Cloud account, deploying a Kubernetes cluster is a straight
 
 `_1.` Open the <a href="https://cloud.ibm.com/" target="blank" >IBM Cloud page</a>. Log in with your account.
 ![login ibm cloud](../images/how1/cloud-login.png)
-<br/><p/>
+<br/>
 
 `_2.` On the top of the page, open the **Navigation Menu (1)** and select **Kubernetes (2)**.
 
 ![iks menu](../images/how1/iks-menu.png)
-<p/>
+<br/>
 
 `_3.` Click “**Create Cluster**”.
 
